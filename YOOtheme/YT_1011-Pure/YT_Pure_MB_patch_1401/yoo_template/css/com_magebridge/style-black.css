@@ -1,0 +1,14 @@
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #4678AA;}
+	
+	/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content .add-to-cart button.button span span, 
+#magebridge-content button.form-button span, 
+#magebridge-content .category-products button.button span span {
+	color: #646566;
+	background-image: url(../../images/styles/black/readmore.png);
+	}

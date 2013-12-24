@@ -1,0 +1,84 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+ 
+body.yoopage { background: #C1C0B5 url(../../images/variations/plainflowers/page_bg.png) 0 0 repeat-x; }
+#page-body { background-image: url(../../images/variations/plainflowers/page_bg_img.png); }
+
+#menubar { background-image: url(../../images/variations/plainflowers/menubar_bg.png); }
+
+#breadcrumbs,
+.middle-wrapper { background: #F9F9F8; }
+
+/* typography */
+
+h2,
+h4,
+h6 { color: #A54E50; }
+
+a:link,
+a:visited { color: #A54E50; }
+a:hover { color: #323232; }
+
+ul.links li { background-image: url(../../images/variations/plainflowers/list_links.png); }
+#page ul.links li a:hover { color: #A54E50; }
+
+/* menus */
+
+#menu a.level2,
+#menu span.level2,
+#menu a.level2.last.parent,
+#menu span.level2.last.parent {	background-image: url(../../images/variations/plainflowers/menu_level2_item.png); }
+
+div.mod-line ul.menu a.level1,
+div.mod-line ul.menu span.level1 { background-image: url(../../images/variations/plainflowers/submenu_level1_item.png); }
+
+/* modules */ 
+
+div.mod-glow div.box-1 { background-color: #F9F9F8; }
+
+div.mod-glow-templatecolor div.box-1 { background-color: #62393A; }
+div.mod-glow-templatecolor em.box { border: 1px dotted #A66666; background: #854E4F; }
+
+div.mod-glass div.box-4 { 
+	background-image: url(../../images/variations/plainflowers/module_glass_line_v.png);
+	color: #4E4D4B;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+}
+div.mod-glass div.box-2,
+div.mod-glass div.box-3 { background-image: url(../../images/variations/plainflowers/module_glass_line_h.png); }
+
+div.mod-embedded div.box-2 { background-color: #F9F9F8; }
+
+#top div.mod-box,
+#bottom div.mod-box { background: #F9F9F8; }
+
+div.mod-box-dark div.box-1 { background: #EFEFEE url(../../images/variations/plainflowers/module_box_dark_bg.png) 50% 0 repeat-x; }
+
+#top div.mod-line,
+#bottom div.mod-line { background: #F9F9F8; }
+
+/* joomla */
+
+div.joomla div.item,
+div.joomla div.article { border-color: #E0E0DF; }
+
+
+/* extensions */
+
+#page div.default div.yoo-search h3.search-header { background-image: url(../../images/variations/plainflowers/yoosearch/header_bg.png); color: 3c3d3e; }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_plainflowers.png); }
+
+
+/* ======================================================================================= */
+/* Start of Magebridge added styling */
+/* ======================================================================================= */
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {background: url("../../images/variations/plainflowers/menubar_bg.png") repeat-x scroll 0 -2px transparent;}

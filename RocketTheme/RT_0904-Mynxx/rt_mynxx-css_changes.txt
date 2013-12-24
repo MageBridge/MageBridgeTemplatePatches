@@ -1,0 +1,324 @@
+
+CSS werkzaamheden bij het aanmaken van template css addon
+
+De Magento pagina's waar je op moet letten:
+- checkout procedure
+- pagina na checkout
+- layered navigation
+
+- modules aan de linkerzijde
+
+
+Heeft de RT template classes die ook gebruikt worden in MageBridge?
+== rt_mynxx
+.middle -> voeg #magebridge-content toe 
+fieldset -> voeg #magebridge-content toe aan magebridge-reset.css
++ #magebridge-content fieldset {border-color:none;border-style:none;border-width:none;margin:0;}
+
+wijziging in rt_head_includes.php
+	a, legend, #main-body ul.menu li a:hover, #main-body ul.menu li.parent li a:hover, #main-body ul.menu li.parent ul li.parent ul li a:hover, #main-body ul.menu li.active a, #main-body ul.menu li.parent li.active a, #main-body ul.menu li.parent li.parent li.active a, #main-body ul.menu li.cat-open a, #main-body ul.menu li.parent li.cat-open a, #main-body ul.menu li.parent li.parent li.cat-open a, .roktabs-wrapper .roktabs-links ul li.active span, .color h3 span, #vmMainPage span.catbar-text h3, div.pathway a {color: <?php echo $this->params->get( 'primaryColor' ); ?>;}
+wijzigen in
+	a, legend, #main-body ul.menu li a:hover, #main-body ul.menu li.parent li a:hover, #main-body ul.menu li.parent ul li.parent ul li a:hover, #main-body ul.menu li.active a, #main-body ul.menu li.parent li.active a, #main-body ul.menu li.parent li.parent li.active a, #main-body ul.menu li.cat-open a, #main-body ul.menu li.parent li.cat-open a, #main-body ul.menu li.parent li.parent li.cat-open a, .roktabs-wrapper .roktabs-links ul li.active span, .color h3 span, #vmMainPage span.catbar-text h3, div.pathway a, 	
+	.base-mini .head h4, .base-mini .head h4 .count, .product-pricing-grouped li, .product-options-bottom .product-pricing li, .product-options-bottom .product-pricing .price,.product-options-bottom .product-pricing .benefit, .product-collateral .collateral-box h4, .shopping-cart-collaterals .discount-codes h4, .shopping-cart-collaterals .shipping-estimate h4, .multi-address-checkout-box .head h5, .place-order-box .grand-total .price, .primary-address-list h4, .address-list h4, .side-mod h4, .account-box h4, .link-cart, .accent, .group-select .legend, .advanced-search .legend, .login-box h4 {color: <?php echo $this->params->get( 'primaryColor' ); ?>;}
+
+
+=== Pagina
+De gehele pagina heeft geen topmargin
+een topmargin toevoegen gaat niet zomaar… niet elke pagina kan een topmargin gebruiken vanwege de default gradiënt in de top.
+#system-message {margin-top:10px;}
+
+
+=== Product detail pagina
+.product-info-box { margin-top:10px; border:1px solid #c4c6c8; margin-top:0; }
+wijzigen in
+.product-info-box { margin-top:10px; border:1px solid #c4c6c8; margin-top:0;  background: transparent url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0;}
+
+.product-essential { padding:25px; background:url(../images/magebridge/product_essential_bg.gif) no-repeat 100% 0 #fff; }
+wijzigen in
+.product-essential { padding:25px; }
+
+.product-collateral { background:url(../images/magebridge/product_collateral_bg.gif) repeat-x #faf7ee; }
+wijzigen in
+.product-collateral { background: transparent url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+
+.product-collateral .head { margin-bottom:1em; border-bottom:1px solid #e5dcc3; padding-bottom:1px; font-size:1.15em; }
+wijzigen in
+.product-collateral .head { margin-bottom:1em; border-bottom:1px solid #CCC; padding-bottom:1px; font-size:1.15em; }
+
+.product-collateral .up-sell .generic-product-grid { border:1px solid #E5DCC3; border-top:0; }
+wijzigen in
+.product-collateral .up-sell .generic-product-grid { border:1px solid #CCC; border-top:0; }
+
+.product-collateral .up-sell .generic-product-grid td { width:25%; border-color:#E5DCC3; background:#f6f2e7; padding-top:15px; }
+wijzigen in
+.product-collateral .up-sell .generic-product-grid td { width:25%; border-color:#CCC; background: #F0F0F0 url(../images/main/module-h3.png) repeat-x scroll 0 100%; padding-top:15px; }
+
+randje om plaatje
+.product-collateral .up-sell .generic-product-grid td img { border:1px solid #E5DCC3; }
+wijzigen in
+.product-collateral .up-sell .generic-product-grid td img { border:1px solid #CCC; }
+
+.product-collateral .up-sell .generic-product-grid td.empty-product { background:#f1ecdb; }
+wijzigen in
+.product-collateral .up-sell .generic-product-grid td.empty-product { background:#f1ecdb; }
+
+=== CHECKOUT
+.data-table .odd  { background:#f8f7f5 }
+.data-table .even { background:#eeeded !important; }
+wijzigen in
+.data-table .odd  { background: #FFFFFF url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+.data-table .even { background: #FFFFFF url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+
+.data-table thead tr th { background:url(../images/magebridge/data_table_th_bg.gif) repeat-x 0 100% #d9e5ee; }
+wijzigen in
+.data-table thead tr th { background: #DEE5E8 url(../images/magebridge/base_mini_actions_bg.gif) 0 0 repeat-x; }
+
+.shopping-cart-totals {
+    width:248px;
+    float:right;
+    margin-top:25px;
+    border:1px solid #BEBCB7;
+    background:#DEE5E8;
+    text-align:right;
+    }
+wijzigen in
+.shopping-cart-totals {
+    width:248px;
+    float:right;
+    margin-top:25px;
+    border:1px solid #BEBCB7;
+    background:#FFFFFF url(../images/magebridge/base_mini_head_bg.gif) repeat-x scroll 0 0;
+    text-align:right;
+    }
+
+== modules
+=== MageBridge: Custom Block: Catalog: Top Navigation
+als deze ingeladen is aan de linkerzijde dan veroorzaakt hij een probleem…. 
+.header-nav is namelijk 950px breed en komt over de andere onderdelen heen te liggen
+ .header-nav { width:950px; margin:0 auto; }
+ wijzigen in
+ .header-nav { margin:0 auto; }
+
+=== border van modules opheffen, zodat opmaakt overeenkomt met RT modules. + achtergrondkleur verwijderd
+ .base-mini { border:1px solid #c4c1bc; background:#fff; line-height:1.3em;  font-size:.95em;  }
+ wijzigen in
+ .base-mini { border:none; background:none; line-height:1.3em;  font-size:.95em;  }
+
+=== achtergrondplaatjes
+ .base-mini .head { margin:0 1px; border-bottom:1px solid #ddd; background:url(../images/magebridge/base_mini_head_bg.gif) repeat-x #fff; padding:2px 8px; }
+ wijzigen in
+ .base-mini .head { margin:0 1px; border-bottom:1px solid #ddd; background:none; padding:2px 8px; }
+
+=== achtergrondkleur bij contentgedeelte van moduleblock opheffen.
+ .base-mini .content, .base-mini ol { background:#f8f7f5; }
+ wijzigen in
+ .base-mini .content, .base-mini ol { background:none; }
+
+=== padding van contentgedeelte van moduleblok opheffen, zodat uitlijning overeenkomt met content van RT modules
+ .mini-product-tags .content {padding:10px;}
+ wijzigen in
+ .mini-product-tags .content {padding:10px 0;}
+
+=== achtergrondkleur bij actiongedeelte van moduleblock opheffen
+ .base-mini .actions { background:url(../images/magebridge/base_mini_actions_bg.gif) repeat-x #dee5e8; padding:6px; }
+ wijzigen in
+ .base-mini .actions { background:none; padding:6px; }
+
+=== MageBridge: Custom Block: Newsletter: Subscription
+te veel padding links en rechts
+ toevoegen
+ .mini-newsletter .content { padding:0; }
+invulveld te breed
+ .mini-newsletter input.input-text { display:block; margin:3px 0; width:167px; }
+ wijzigen in
+ .mini-newsletter input.input-text { display:block; margin:3px 0; width:164px; }
+
+=== MageBridge: Custom Block: Catalog: Top Navigation
+blauwe achtergrond verwijderen
+verdere opmaakt is aan de klant zelf
+ .header-nav-container { background:url(../images/magebridge/nav_bg.jpg) repeat-y 50% 0 #0a263d; }
+ wijzigen in
+ .header-nav-container { background:none; }
+
+=== side-col wordt side-mod
+voor de Magento sidebars is in boxes.css de class side-col gedefinieerd
+in Joomla is deze niet gedefinieerd. RT_Mynxx is dit de class side-mod
+zoo side-col en vervang side-mod
+
+=== Frontpage CSS
+op de site van templates.magebridge.com gebruiken we een aangekochte extensie
+deze krijgt een eigen css, nml magebridge-frontpage.css
+vaunt rt_head_includes.php wordt deze apart ingeladen.
+
+=== Customer login page
+/shop/customer/account/login/
+achtergrondplaatje komt niet overeen met design
+ .login-box .col-1, .login-box .col-2 { border:1px solid #bbb6a5; background:#dee5e8; }
+ wijzigen in
+ .login-box .col-1, .login-box .col-2 { border:1px solid #bbb6a5; background:#ffffff }
+ .login-box .content { background:url(../images/magebridge/login_box_bg.gif) repeat-x #faf7ee; padding:14px 21px; }
+ wijzigen in
+.login-box .content { background:transparent url(../images/main/module2-h3.png) repeat-x scroll 0 100%; padding:14px 21px; }
+
+===MageBridge Custom Block: Catalog: Left Navigation
+ .layered-nav .head {
+    margin:0;
+    background:url(../images/magebridge/layered_nav_head_bg.gif) no-repeat;
+    height:24px;
+    }
+ wijzigen in
+ .layered-nav .head {
+    display:none;
+    }
+
+ .layered-nav h4 {
+    margin:0;
+    border:1px solid #b9ccdd;
+    border-left:0;
+    border-right:0;
+    padding:3px 10px;
+    background:url(../images/magebridge/layered_nav_narrowed_category_heading.gif) #d5e8ff;
+    color:#1f5070;
+    font-weight:bold;
+    font-size:1em;
+    }
+ wijzigen in
+ .layered-nav h4 {
+	min-height:16px;
+	padding:1px 0 1px 0;
+	text-transform:uppercase;
+    }
+verwijder de border
+ .layered-nav .border-creator { border-style:solid; border-color:#a0b3c3; border-width:0 1px 1px 1px; }
+ wijzigen in
+ .layered-nav .border-creator { }
+verwijder achtergrondkleur
+ .narrow-by dl {
+    background:#e7f1f4;
+    padding:0 0 1em 0;
+    }
+ wijzigen in
+ .narrow-by dl {
+    padding:0 0 1em 0;
+    }
+op moment je een keuze maakt, verschijnt er nieuwe content
+.layered-nav .actions {
+    border-style:solid;
+    border-color:#dee5e8;
+    border-width:1px 0;
+    padding:4px 10px;
+    background:#cad6e4;
+    }
+ wijzigen in
+.layered-nav .actions {
+    border-style:solid;
+    border-color:#dee5e8;
+    border-width:1px 0;
+    padding:4px 10px;
+    }
+
+=== Shopping Cart
+upsell blok
+voldoet niet aan uiterlijk van overige onderdelen
+ .shopping-cart-collaterals .upsell {
+    width:42.5%;
+    border:1px solid #cec3b6;
+    padding:12px 15px;
+    background:#fafaec;
+    }
+ wijzigen in
+ .shopping-cart-collaterals .upsell {
+    width:42.5%;
+    border:1px solid #cec3b6;
+    padding:12px 15px;
+    background:#FFFFFF url(../images/magebridge/base_mini_head_bg.gif) repeat-x scroll 0 0;
+    }
+
+
+
+=== Catalog
+prijs zwart
+ .price-box .price { font-weight:bold; color:#c76200; }
+ .regular-price { color:#c76200; }
+ .regular-price .price { font-weight:bold; font-size:13px; color:#c76200; }
+ wijzigen in
+ .price-box .price { font-weight:bold; }
+ .regular-price { }
+ .regular-price .price { font-weight:bold; font-size:13px; }
+
+add-to-cart button
+Mynxx gebruikt een mooie button
+Default Magento geeft voor de Add-To-Cart button geen aparte class
+De class die de css bepaald voor de Add-To-Cart button kan dus ook gebruikt worden door andere classes.
+Daarom geen mooie button voor deze Add-To-Cart, maar een generieke oplossing
+Een variabele button… okmooi
+
+ .form-button, .form-button-alt {
+    overflow:visible;
+    width:auto;
+    border:0;
+    padding:1px 8px;
+    background:#f18200;
+    color:#fff;
+    border:1px solid #de5400;
+    font:bold 12px arial, sans-serif !important;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:middle;
+    }
+ .form-button span, .form-button-alt span {
+    background: #000;
+    padding:0;margin:0;
+    }
+ .form-button, .form-button-alt { 
+	position: relative;
+	border: 0; 
+	padding: 0;
+	cursor: pointer;
+	overflow: visible; /* removes extra side padding in IE */
+	}
+
+button::-moz-focus-inner {
+	border: none;  /* overrides extra padding in Firefox */
+	}
+
+.form-button span, .form-button-alt span { 
+	position: relative;
+	display: block; 
+	white-space: nowrap;	
+  background:url(../images/magebridge/add-to-cart-left.png) left no-repeat;
+	}  
+	
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/* Safari and Google Chrome only - fix margins */
+	button span {
+		margin-top: -1px;
+	}
+}
+
+/* STYLES for applying custom look and feel: */		
+.form-button, .form-button-alt { 
+	padding: 0 15px 0 0; 
+	margin-right:5px;  
+	text-align: center; 
+	background: transparent url(../images/magebridge/add-to-cart.png) no-repeat right -40px; 
+}
+	
+.form-button span, .form-button-alt span {
+	padding: 0 0 0 15px; 
+	height:20px; 
+	line-height:20px;
+	background: transparent url(../images/magebridge/add-to-cart.png) no-repeat left top; 
+	color:#fff; 
+}
+
+.form-button-alt {
+    border:1px solid #406a83;
+    background-color:#618499;
+    }
+ wijzigen in
+.form-button-alt { }
+
+
+.addtocart_button_module {width:80px;height:20px;cursor:pointer;color: #fff;border: none;background: url(images/add-to-cart.png) 0 0 no-repeat;overflow:hidden;margin: 0;padding: 0;	}
+

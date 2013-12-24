@@ -1,0 +1,62 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* MageBridge: replace by h2 colors*/
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2,
+#magebridge-content .cart {color: #4C94B9;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	border-color: #245B79;
+	background: #5FA5CB;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#5FA5CB 0%,
+					#3382AC 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #5FA5CB),
+					color-stop(100%, #3382AC)
+				);
+	}
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover {
+	border-color: #1F4B62;
+	background: #3382AC;
+	background: -moz-linear-gradient(
+					50% 0%,
+					#2C6B8D 0%,
+					#3684AE 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #2C6B8D),
+					color-stop(100%, #3684AE)
+				);
+	}
+#magebridge-content button.button:active,
+.magebridge-module button.button:active {
+	background: -moz-linear-gradient(
+					50% 0%,
+					#1F4B62 0%,
+					#2C6B8D 100%
+				);
+				
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, #1F4B62),
+					color-stop(100%, #2C6B8D)
+				);
+	}
+/* ======================================================================================= */

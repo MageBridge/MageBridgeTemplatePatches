@@ -1,0 +1,7 @@
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2,
+#magebridge-content .cart {color: #669966;}
+#magebridge-content .fieldset .legend {border-color: #669966;}
+
+button.button span {color:#ffffff;}

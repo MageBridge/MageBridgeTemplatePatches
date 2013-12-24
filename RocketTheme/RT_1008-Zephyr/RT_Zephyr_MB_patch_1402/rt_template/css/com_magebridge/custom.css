@@ -1,0 +1,14 @@
+/* Start of Magebridge added styling ===================================================== */
+
+.page-overlay-light button.button {background:transparent url(../../images/com_magebridge/add-to-cart-light.png) no-repeat right -81px;height:22px;line-height:22px;padding:0 15px 0 0;}
+.page-overlay-light button.button span {background:transparent url(../../images/com_magebridge/add-to-cart-light.png) no-repeat left -27px;font-size:12px;height:22px;line-height:22px;text-indent:15px;}
+.page-overlay-light button.button span span {background-image:none;}
+.page-overlay-dark button.button {background:transparent url(../../images/com_magebridge/add-to-cart-dark.png) no-repeat right -81px;height:22px;line-height:22px;padding:0 15px 0 0;}
+.page-overlay-dark button.button span {background:transparent url(../../images/com_magebridge/add-to-cart-dark.png) no-repeat left -27px;font-size:12px;height:22px;line-height:22px;text-indent:15px;}
+.page-overlay-dark button.button span span {background-image:none;}
+button.button:hover {background-position:right -54px;}
+button.button:hover span {background-position:left top;}
+
+.body-overlay-light .magebridge-content .cart,
+.body-overlay-dark .magebridge-content .cart {background-color:transparent;background-image:none;border:none;}
+.data-table {border:none;}

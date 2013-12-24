@@ -1,0 +1,33 @@
+.magebridge-module button.button,
+#magebridge-content button.button  {
+	border: 1px solid #5293A7;
+	background: #7FBFD0;
+	background: -o-linear-gradient(top, #90D0E1 0%, #7FBFD0 100%);
+	background: -webkit-linear-gradient(top, #90D0E1 0%, #7FBFD0 100%);
+	background: -moz-linear-gradient(top, #90D0E1 0%, #7FBFD0 100%);
+	background: linear-gradient(to bottom, #90D0E1 0%, #7FBFD0 100%);
+	color: #effcff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background: #699dab;
+	background: -o-linear-gradient(top, #7FBFD0 0%, #90D0E1 100%);
+	background: -webkit-linear-gradient(top, #7FBFD0 0%, #90D0E1 100%);
+	background: -moz-linear-gradient(top, #7FBFD0 0%, #90D0E1 100%);
+	background: linear-gradient(to bottom, #7FBFD0 0%, #90D0E1 100%);
+	color: #40636c;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {
+	background: #598692;
+	background: -o-linear-gradient(top, #f18a58 0%, #f29d58 100%);
+	background: -webkit-linear-gradient(top, #79b0cb 0%, #88c1da 100%);
+	background: -moz-linear-gradient(top, #f18a58 0%, #f29d58 100%);
+	background: linear-gradient(to bottom, #f18a58 0%, #f29d58 100%);
+	color: #36545c;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}

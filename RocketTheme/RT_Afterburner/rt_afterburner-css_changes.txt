@@ -1,0 +1,400 @@
+start met activeren van alle MageBridge Blokken
+================
+INSERT INTO `mb_modules` VALUES(112, 'MageBridge: Custom Block: Product Tags', '', 29, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=product_tag_list\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(113, 'MageBridge: Cart', '', 38, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_magebridge_cart', 0, 0, 1, 'load_css=1\nload_js=1\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(114, 'MageBridge: CMS Block', '', 40, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_magebridge_cms', 0, 0, 1, 'cache=1\nload_css=1\nload_js=1\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(115, 'MageBridge: Menu', '', 24, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_menu', 0, 0, 1, 'root=3\nlevels=1\ncache=1\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(116, 'MageBridge: Products', '', 39, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_products', 0, 0, 1, 'ordering=\ncount=5\ncategory_id=10\nshow_title=1\nshow_short_description=1\nshow_description=0\nshow_thumb=1\nshow_price=1\nshow_readmore=1\nreadmore=Read more about %s\nshow_noitems=1\nlayout=default\ncache=0\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(117, 'MageBridge: Latest Customers', '', 29, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_magebridge_customers', 0, 2, 1, 'count=5\ncache=1\n', 0, 1, '');
+INSERT INTO `mb_modules` VALUES(118, 'MageBridge: Latest Orders', '', 30, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_magebridge_orders', 0, 2, 1, 'count=5\ncache=1\n', 0, 1, '');
+INSERT INTO `mb_modules` VALUES(119, 'MageBridge: Custom Block: Reports: Recently viewed products', '', 33, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=right.reports.product.viewed\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(120, 'MageBridge: Custom Block: Popular Tags', '', 25, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=tags_popular\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(121, 'MageBridge: Custom Block: Reports: Product compared', '', 34, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=right.reports.product.compared\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(122, 'MageBridge: Custom Block: Catalog: Top Navigation', '', 26, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=catalog.topnav\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(123, 'MageBridge: Custom Block: Catalog: Compare Sidebar', '', 27, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=catalog.compare.sidebar\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(124, 'MageBridge: Custom Block: Cart: Sidebar', '', 30, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=cart_sidebar\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(126, 'MageBridge: Custom Block: Catalog: Left Navigation', '', 28, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=catalog.leftnav\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(127, 'MageBridge: Custom Block: Checkout: Progress', '', 31, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=checkout.progress\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(128, 'MageBridge: Custom Block: Newsletter: Subscription', '', 32, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=right.newsletter\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+INSERT INTO `mb_modules` VALUES(129, 'MageBridge: Custom Block: Search: Popular Search Items', '', 35, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_magebridge_block', 0, 0, 1, 'block=seo.searchterm\ncustom=\ncache=1\nload_css=1\nload_js=1\nlayout=default\nmoduleclass_sfx=arrow\n\n', 0, 0, '');
+
+
+
+RT_Afterburner heeft geen rt_head_include.php
+Daarom wordt de Yireo informatie in index.php geplaatst
+
+=== Default
+fieldset -> voeg #magebridge-content toe aan magebridge-reset.css
++ #magebridge-content fieldset {border-color:none;border-style:none;border-width:none;margin:0;}
+
+#magebridge-content {margin-top:10px;}
+
+=== IMAGES
+url(../images/
+wijzigen in 
+url(../images/magebridge/
+
+=== ORANGE
+color:#e26703; 
+remove color from:
+#col2 h4, #col3 h4
+.notice
+.base-mini .head h4
+.login-box h4
+.shopping-cart-collaterals .discount-codes h4, .shopping-cart-collaterals .shipping-estimate h4
+
+color:#F18200;
+remove from
+.one-page-checkout .active h3
+
+=== Buttons
+RT_Afterdark gebruikt geen opmaak voor de buttons. 
+.form-button, .form-button-alt {
+    overflow:visible;
+    width:auto;
+    border:0;
+    padding:1px 8px;
+    background:#f18200;
+    color:#fff;
+    border:1px solid #de5400;
+    font:bold 12px arial, sans-serif !important;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:middle;
+    }
+.form-button span, .form-button-alt span {
+    white-space:nowrap;
+    }
+.form-button-alt {
+    border:1px solid #406a83;
+    background-color:#618499;
+    }
+a.form-button-alt { padding:2px 9px; text-decoration:none; }
+.form-button-alt:hover { color:#fff; text-decoration:none; }
+.btn-checkout {
+    display:block;
+    float:right;
+    background:transparent url(../images/magebridge/btn_proceed_to_checkout_rad.gif) no-repeat 100% 0;
+    font-size:15px;
+    font-weight:bold;
+    padding-right:8px;
+    }
+.btn-checkout, .btn-checkout:hover {
+    color:#fef5e5;
+    text-decoration:none;
+    }
+.btn-checkout span {
+    display:block;
+    padding:0 17px 0 25px;
+    background:transparent url(../images/magebridge/btn_proceed_to_checkout_bg.gif) no-repeat;
+    line-height:40px;
+    }
+ wijzigen in
+.form-button, .form-button-alt { }
+.form-button span, .form-button-alt span { }
+.form-button-alt { }
+a.form-button-alt { }
+.form-button-alt:hover { }
+.btn-checkout { }
+.btn-checkout, .btn-checkout:hover { }
+.btn-checkout span { }
+
+=== FONT SIZE
+RT_Afterburner werkt met minimale opmaak. 
+ .page-head h3, .page-head-alt h3 {
+    margin:0;
+    font-size:1.7em !important;
+    font-weight:normal !important;
+    text-transform:none  !important;
+    text-align:left;
+    }
+ wijzigen in
+ .page-head h3, .page-head-alt h3 {
+    margin:0;
+    text-transform:none  !important;
+    text-align:left;
+    }
+
+
+ .category-head h2 {
+    max-width:100%;
+    margin:0;
+    padding:3px 0;
+    color:#0a263c;
+    font-size:1.6em;
+    line-height:1.3em;
+    font-weight:normal;
+    overflow:hidden;
+    }
+ wijzigen in
+ .category-head h2 {
+    max-width:100%;
+    margin:0;
+    padding:3px 0;
+    color:#0a263c;
+    overflow:hidden;
+    }
+
+
+=== LISTS
+RT_Afterburner voegt styling toe aan li, terwijl Magento dit niet wil
+#colmask ul li 
+#magebridge-content #colmask ul li { list-style:none; }
+
+=== Customer login page
+/shop/customer/account/login/
+achtergrondplaatje komt niet overeen met design
+ .login-box .col-1, .login-box .col-2 { border:1px solid #bbb6a5; background:#dee5e8; }
+ wijzigen in
+ .login-box .col-1, .login-box .col-2 { border:1px solid #bbb6a5; background:#ffffff }
+
+ .login-box .content { background:url(../images/magebridge/login_box_bg.gif) repeat-x #faf7ee; padding:14px 21px; }
+ wijzigen in
+.login-box .content { background:none; padding:14px 21px; }
+
+achtergrondplaatje te licht voor dark thema.
+override toepassen in dark
+toevoegen
+.login-box .col-1, .login-box .col-2 {background:#515151}
+
+
+=== Product detail pagina
+
+== MODULES
+
+=== side-col wordt side-mod
+voor de Magento sidebars is in boxes.css de class side-col gedefinieerd
+in Joomla is deze niet gedefinieerd. RT_Afterburner zijn dit de id-tag col2 en col3
+Zoek side-col en vervang met #col2 en #col3
+ .side-col { width:195px; }
+ wijzigen in
+ .side-col { }
+
+=== MageBridge: Custom Block: Catalog: Top Navigation
+als deze ingeladen is aan de linkerzijde dan veroorzaakt hij een probleem…. 
+.header-nav is namelijk 950px breed en komt over de andere onderdelen heen te liggen
+ .header-nav { width:950px; margin:0 auto; }
+ wijzigen in
+ .header-nav { margin:0 auto; }
+
+=== border van modules opheffen, zodat opmaakt overeenkomt met RT modules. + achtergrondkleur verwijderd
+ .base-mini { border:1px solid #c4c1bc; background:#fff; line-height:1.3em;  font-size:.95em;  }
+ wijzigen in
+ .base-mini { border:none; background:none; line-height:1.3em;  font-size:.95em;  }
+
+=== achtergrondplaatjes
+ .base-mini .head { margin:0 1px; border-bottom:1px solid #ddd; background:url(../images/magebridge/base_mini_head_bg.gif) repeat-x #fff; padding:2px 8px; }
+ wijzigen in
+ .base-mini .head { margin:0 1px; border-bottom:1px solid #ddd; background:none; padding:2px 8px; }
+
+=== achtergrondkleur bij contentgedeelte van moduleblock opheffen.
+ .base-mini .content, .base-mini ol { background:#f8f7f5; }
+ wijzigen in
+ .base-mini .content, .base-mini ol { background:none; }
+
+=== padding van contentgedeelte van moduleblok opheffen, zodat uitlijning overeenkomt met content van RT modules
+ .mini-product-tags .content {padding:10px;}
+ wijzigen in
+ .mini-product-tags .content {padding:10px 0;}
+
+=== achtergrondkleur bij actiongedeelte van moduleblock opheffen
+ .base-mini .actions { background:url(../images/magebridge/base_mini_actions_bg.gif) repeat-x #dee5e8; padding:6px; }
+ wijzigen in
+ .base-mini .actions { background:none; padding:6px; }
+
+==== Verberg de titel, omdat deze ook al voorkomt in de modulebenaming.
+ #col2 .head, #col3 .head { text-align:left; }
+ wijzigen in
+ #col2 .head, #col3 .head { text-align:left; display:none;}
+
+==== Breng padding in content naar nul, omdat moduleblok al padding heeft
+ #col2 .content, #col3 .content {padding:5px 10px; }
+ wijzigen in
+ #col2 .content, #col3 .content {padding:0;}
+
+==== MageBridge: Custom Block: Cart: Sidebar
+heeft wel een .head nodig, die we eerder op display:none hebben gezet
+ voeg toe bij .mini-cart
+ #col2 .mini-cart .head, #col3 .mini-cart .head {display:block;}
+maar verberg de titel 
+ .mini-cart .head h4 { background-image:url(../images/magebridge/icon_basket.gif); }
+ wijzigen in
+ .mini-cart .head h4 { display:none; }
+
+=== MageBridge: Custom Block: Newsletter: Subscription
+te veel padding links en rechts
+ toevoegen
+ .mini-newsletter .content { padding:0; }
+invulveld te breed
+ .mini-newsletter input.input-text { display:block; margin:3px 0; width:167px; }
+ wijzigen in
+ .mini-newsletter input.input-text { display:block; margin:3px 0; width:164px; }
+
+=== MageBridge: Custom Block: Catalog: Top Navigation
+blauwe achtergrond verwijderen
+verdere opmaakt is aan de klant zelf
+ .header-nav-container { background:url(../images/magebridge/nav_bg.jpg) repeat-y 50% 0 #0a263d; }
+ wijzigen in
+ .header-nav-container { background:none; }
+
+=== MageBridge Custom Block: Catalog: Left Navigation
+ .layered-nav .head {
+    margin:0;
+    background:url(../images/magebridge/layered_nav_head_bg.gif) no-repeat;
+    height:24px;
+    }
+ wijzigen in
+ .layered-nav .head {
+    display:none;
+    }
+
+ .layered-nav h4 {
+    margin:0;
+    border:1px solid #b9ccdd;
+    border-left:0;
+    border-right:0;
+    padding:3px 10px;
+    background:url(../images/magebridge/layered_nav_narrowed_category_heading.gif) #d5e8ff;
+    color:#1f5070;
+    font-weight:bold;
+    font-size:1em;
+    }
+ wijzigen in
+ .layered-nav h4 {
+	min-height:16px;
+	padding:1px 0 1px 0;
+	text-transform:uppercase;
+    }
+verwijder de border
+ .layered-nav .border-creator { border-style:solid; border-color:#a0b3c3; border-width:0 1px 1px 1px; }
+ wijzigen in
+ .layered-nav .border-creator { }
+verwijder achtergrondkleur
+ .narrow-by dl {
+    background:#e7f1f4;
+    padding:0 0 1em 0;
+    }
+ wijzigen in
+ .narrow-by dl {
+    padding:0 0 1em 0;
+    }
+op moment je een keuze maakt, verschijnt er nieuwe content
+.layered-nav .actions {
+    border-style:solid;
+    border-color:#dee5e8;
+    border-width:1px 0;
+    padding:4px 10px;
+    background:#cad6e4;
+    }
+ wijzigen in
+.layered-nav .actions {
+    border-style:solid;
+    border-color:#dee5e8;
+    border-width:1px 0;
+    padding:4px 10px;
+    }
+
+
+== Frontpage CSS
+op de site van templates.magebridge.com gebruiken we een aangekochte extensie
+deze krijgt een eigen css, nml magebridge-frontpage.css
+vaunt rt_head_includes.php wordt deze apart ingeladen.
+
+
+=== SHOPPING CART
+upsell blok
+voldoet niet aan uiterlijk van overige onderdelen
+ .shopping-cart-collaterals .upsell {
+    width:42.5%;
+    border:1px solid #cec3b6;
+    padding:12px 15px;
+    background:#fafaec;
+    }
+ wijzigen in
+ .shopping-cart-collaterals .upsell {
+    width:42.5%;
+    padding:12px 15px;
+    background:#FFFFFF url(../images/magebridge/base_mini_head_bg.gif) repeat-x scroll 0 0;
+    border:1px solid #D0CBC1;
+    }
+
+continu t.o. checkout block voldoet niet aan uiterlijk
+ .shopping-cart-totals {
+    width:248px;
+    float:right;
+    margin-top:25px;
+    border:1px solid #BEBCB7;
+    background:#DEE5E8;
+    text-align:right;
+    }
+ wijzigen in
+ .shopping-cart-totals {
+    width:248px;
+    float:right;
+    margin-top:25px;
+    background:#DEE5E8 url(../images/magebridge/base_mini_head_bg.gif) repeat-x scroll 0 0;
+    border:1px solid #D0CBC1;
+    text-align:right;
+    }
+
+=== CATALOG LISTING
+blauw is te donker. gelijktrekken aan overige blauw
+ .catalog-listing h5 a, .catalog-listing h5 a:hover { color:#203548; text-decoration:underline; }
+ wijzigen in
+ .catalog-listing h5 a, .catalog-listing h5 a:hover { color:#0092D8; text-decoration:underline; }
+
+=== CHECKOUT
+.data-table .odd  { background:#f8f7f5 }
+.data-table .even { background:#eeeded !important; }
+wijzigen in 
+.data-table .odd { }
+.data-table .even { }
+en verplaatsen naar eigen kleur
+.data-table .odd  { background: #D4DEE3; }
+.data-table .even { background: #FFFFFF url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+
+==== active bar
+opmaak nummering
+gelijktrekken aan "#showcase .nu" uit rt_afterburner
+ .one-page-checkout .active .step-count { color:#fff; border:1px solid #f19900; background:#F18200; }
+ wijzigen in
+ .one-page-checkout .active .step-count { /* zie color css */ }
+ en toevoegen aan color
+ .one-page-checkout .active .step-count { background:#7F8C51; color:#FFFFFF; }
+
+title 
+ .one-page-checkout .active h3 {}
+ wijzigen in
+ .one-page-checkout .active h3 { color:#0092D8; }
+
+.color2 .module-title {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(../images/light4.png) repeat-x scroll 0 -136px;
+border-bottom:1px solid #C3D9E1;
+color:#50646D;
+
+
+ .one-page-checkout .active .head { margin-bottom:0; border:1px solid #BBAFA0; background:#F9F3E3; padding-bottom:5px; cursor:default; }
+ wijzigen in
+ .one-page-checkout .active .head { margin-bottom:0; border:1px solid #BBAFA0; padding-bottom:5px; cursor:default; }
+ en toevoegen aan color
+.one-page-checkout .active .head { background: transparent url(../images/light4.png) repeat-x scroll 0 -136px; }
+
+
+
+
+
+
+
+
+# mkdir magebridge
+# cd magebridge
+# cp -a /home/mageb01/public_html/shop/skin/frontend/default/default/images/* .
+
+vanuit images/magebridge
+# find . -type f -maxdepth 1 | awk -F \./ '{print $2}' > lijst
+# grep images/magebridge ../../css/magebridge-boxes.css | awk -F magebridge/ '{print $2}' | awk -F \) '{print $1}' | sort | uniq >> lijst
+# for i in $(sort lijst | uniq -c | awk '$1 < 2 {print $NF}');do rm -rf $i;done
+

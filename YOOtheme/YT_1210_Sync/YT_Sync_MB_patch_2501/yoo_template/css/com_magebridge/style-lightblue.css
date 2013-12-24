@@ -1,0 +1,16 @@
+.magebridge-module button.button,
+#magebridge-content button.button  {}
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+border-color: #0FADDB;
+border-bottom-color: #0D91B7;
+background: #2AC3DF;
+background: -webkit-linear-gradient(top, #2AC3DF, #10B9EC);
+background: -moz-linear-gradient(top, #2AC3DF, #10B9EC);
+background: -o-linear-gradient(top, #2AC3DF, #10B9EC);
+background: linear-gradient(to bottom, #2AC3DF, #10B9EC);
+}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {}

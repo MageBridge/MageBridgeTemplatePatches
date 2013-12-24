@@ -1,0 +1,33 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Background image or color (module header) (Module Box Variations -> .title2 .module-title) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .product-options-bottom {
+	background: url(../../images/accents/darkorange/accent-div.png) 50% 100% repeat-x;
+	}
+	
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	background-image: url(../../images/accents/darkorange/readon2-r.png);
+	}
+#magebridge-content button.button span,
+.magebridge-module button.button span {
+	background-image: url(../../images/accents/darkorange/readon2-l.png);
+	color: #F4BDAC;text-shadow: -1px -1px 1px #541609;}
+#magebridge-content button.button span span,
+.magebridge-module button.button span span {
+	}
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover {
+	}
+#magebridge-content button.button:hover span,
+.magebridge-module button.button:hover span {
+	color: #fff;text-shadow: -1px -1px 1px #541609;}
+
+
+/* ======================================================================================= */

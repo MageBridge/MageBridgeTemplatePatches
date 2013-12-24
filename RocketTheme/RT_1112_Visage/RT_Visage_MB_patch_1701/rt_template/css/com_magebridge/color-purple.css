@@ -1,0 +1,18 @@
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button  {	
+	/* style#.css */
+	color: #fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+	background-image: url(../../images/purple/readon-r.png);
+}
+.magebridge-module button.button span,
+#magebridge-content button.button span {	
+	/* style#.css */
+	background-image: url(../../images/purplereadon-l.png);
+}
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	/* style#.css */
+	color: #fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,39 @@
+/* Start of Magebridge added styling ===================================================== */
+
+#magebridge-content .opc .step-title,
+#magebridge-content .data-table .even {background: url(../../images/style6/backgrounds/body-surround.png) repeat-x;}
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd {background: url(../../images/style6/gradient-bg4.png) repeat-x;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	background-image: url("../../images/style6/readon-bg.png");
+	}
+#magebridge-content button.button span,
+.magebridge-module button.button span,
+#magebridge-content button.button span span,
+.magebridge-module button.button span span {
+	}
+#magebridge-content button.button span,
+.magebridge-module button.button span {
+	background-image: url("../../images/style6/readon-arrows.png");
+    }
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover {
+	}
+#magebridge-content button.button:hover span,
+.magebridge-module button.button:hover span {
+	}
+
+/* ======================================================================================= */

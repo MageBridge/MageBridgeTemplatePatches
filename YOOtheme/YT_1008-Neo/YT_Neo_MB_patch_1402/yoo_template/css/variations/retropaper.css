@@ -1,0 +1,80 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(retro.css);
+@import url(retro_fonts.css);
+
+/* layout */
+body.yoopage { background: #E6E6D9 url(../../images/variations/retropaper/page_bg.png) 0 0 repeat; }
+div#page-body { background: url(../../images/variations/retropaper/page_bg_img.png) 0 0 repeat-x; }
+
+#menubar { background-image: url(../../images/variations/retropaper/menubar_bg.png); }
+
+/* typography */
+#page h1 a,
+h1,
+h3,
+h5,
+.module h3.header { color: #837872; }
+
+h2,
+h4,
+h6 { color: #ED8130; }
+
+a:link,
+a:visited { color: #ED8130; }
+a:hover { color: #897D76; }
+
+ul.links li { background-image: url(../../images/variations/retropaper/list_links.png); }
+#page ul.links li a:hover { color: #ED8130; }
+
+/* menus */
+#menu li:hover a.level1 span.bg,
+#menu li:hover span.level1 span.bg,
+#menu li.remain .level1 span.bg { 
+	color: #877D76;
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+#menu a.level3 span.bg,
+#menu span.level3 span.bg {	background-image: url(../../images/variations/retropaper/menu_level3_item.png); }
+#menu a.level3:hover span.bg { color: #ED8130; }
+
+div.mod-line ul.menu li.level2 span.bg { background: url(../../images/variations/retropaper/submenu_level2_item.png) 0px 50px no-repeat; }
+div.mod-line ul.menu li.level2 a:hover span.bg { color: #ED8130; }
+
+/* modules */
+div.mod-glow-templatecolor div.box-1 { background-color: #E3874F; }
+div.mod-glow-templatecolor em.box { border: 1px dotted #8F4416; background: #DE7230; }
+
+/* joomla */
+#page a.readmore {	background: url(../../images/variations/retropaper/readmore.png) 100% 0 no-repeat; }
+#page a.readmore:hover { background: url(../../images/variations/retropaper/readmore.png) 100% -27px no-repeat; }
+
+/* custom */
+#page #logo a.logo-icon { 
+	height: 118px;
+	background-image: url(../../../../images/yootheme/logo_retropaper.png);
+}
+
+/* ======================================================================================= */
+/* Start of Magebridge added styling */
+/* ======================================================================================= */
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #ffffff; background: url("../../images/variations/retropaper/menubar_bg.png") repeat-x scroll 0 -2px transparent;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content .add-to-cart button.button span span, 
+#magebridge-content button.form-button span, 
+#magebridge-content .category-products button.button span span{
+	background: url(../../images/variations/retropaper/readmore.png) 100% 0 no-repeat;
+	}
+#magebridge-content .add-to-cart button.button:hover span span, 
+#magebridge-content button.form-button:hover span, 
+#magebridge-content .category-products button.button:hover span span {
+	background: url(../../images/variations/retropaper/readmore.png) 100% -27px no-repeat;
+	}

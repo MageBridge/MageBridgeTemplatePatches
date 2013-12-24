@@ -1,0 +1,259 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h2,
+#magebridge-content .cart .crosssell h2 {margin-top:0;font-weight:normal;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+/*#magebridge-content .opc .active .step-title .number {background: #ffffff;}*/
+#magebridge-content .products-grid li.item {padding:12px 10px 100px;}
+
+
+/* Magebridge: Background image or color (background and border from odd/even tablerow) */
+#magebridge-content .products-grid.odd,
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+/*#magebridge-content .opc .step, */
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,
+#magebridge-content .product-options-bottom { }
+
+#magebridge-content .toolbar .pager,
+#magebridge-content .toolbar .sorter,
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals,
+#magebridge-content .data-table {border:0;}
+
+#magebridge-content .data-table thead,
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+/*#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,*/
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options-bottom  {border: none;}
+#magebridge-content .product-view .box-up-sell .products-grid td {border:none;}
+
+#magebridge-content .products-grid {border-color: rgba(255, 255, 255, 0.2);}
+
+/* checkout */
+#magebridge-content .opc .step,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .active .step-title {
+	background:none;
+	border-color: white;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .allow .step-title {
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+}
+
+.opc .step-title .number,
+.opc .allow .step-title .number,
+.opc .active .step-title .number {
+	background:none;
+	border:none;
+}
+
+#magebridge-content .opc .active .step-title h2 {
+	color:inherit;
+}
+
+#magebridge-content #opc-login h4 {
+	color:inherit;
+	text-shadow: none;
+}
+
+  /* YOOtheme -> warp >> tools.css >> table.zebra = #magebridge-content .data-table */
+#magebridge-content .data-table { width: 100%; }
+
+#magebridge-content .data-table th {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#magebridge-content .data-table th,
+#magebridge-content .data-table td { padding: 5px; }
+
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot { font-size: 12px; }
+
+#magebridge-content .data-table .bold { font-weight: bold; }
+#magebridge-content .data-table .center { text-align: center; }
+
+#magebridge-content .data-table td * { vertical-align: middle; }
+
+#magebridge-content .data-table tfoot { font-style: italic; }
+
+#magebridge-content .data-table caption {
+	font-size: 11px;
+	text-align: left;
+	font-style: italic;
+}  
+
+  /* YOOtheme -> tools.css >> table.zebra = #magebridge-content .data-table */
+/* Zebra Table */
+#magebridge-content tbody td { border-bottom: 1px solid rgba(0,0,0,0.2); }
+#magebridge-content tbody tr:first-child td { border-top: 1px solid rgba(0,0,0,0.2); }
+#magebridge-content tbody tr.odd { background: url('../../images/tools/list_zebra_bg.png') 0 0 repeat; }
+#magebridge-content tbody tr:nth-of-type(odd) { background: url('../../images/tools/list_zebra_bg.png') 0 0 repeat;}
+#magebridge-content caption { color: #999; }
+
+  #magebridge-content .data-table th,
+  #magebridge-content .data-table td {border:none;}
+ 
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .page-title,
+#magebridge-content .product-collateral h2,
+#magebridge-content .account-login .content h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {border-bottom: 1px solid rgba(255, 255, 255, 0.2);font-weight:normal;}
+#magebridge-content .product-view .product-img-box .more-views li {margin: 0 0 8px 9px;}
+
+
+#magebridge-content .pager {border-color: rgba(255, 255, 255, 0.2);}
+
+#magebridge-content .page-title h1,
+#magebridge-content .page-title h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+/*#magebridge-content .opc .step-title,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,*/
+#magebridge-content h2 {}
+
+/* MageBridge: add to cart (same as readmore from template tools.css) */ 
+
+/* warp/tools.css */
+.magebridge-module button.button,
+#magebridge-content button.button {
+display: inline-block;
+}
+
+/* tools.css */
+.magebridge-module button.button,
+#magebridge-content button.button {
+	/* base */
+	cursor: pointer;
+	-webkit-appearance: button;
+	
+	font: 12px Arial, sans-serif;
+	
+	padding: 2px 3px;
+	
+	/* tools */
+	padding: 8px 20px;
+	border: 1px solid #DADADA;
+	background: #F7F7F7;
+	box-shadow: inset 0px 0px 9px rgba(0,0,0,0.07);
+	color: #9D9D9D;
+	text-shadow: 0 1px 0 #FFF; 
+}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	/* base */
+	
+	/* tools */
+	border-color: #C5C5C5;
+	background: #E9E9EA;
+	color: #909096 !important;
+	
+	/* animation.css */
+    -o-transition: 
+    	border-color 200ms ease-in-out, 
+    	background 200ms ease-in-out;
+	-webkit-transition: 
+		border-color 200ms ease-in-out, 
+		background 200ms ease-in-out;
+	-moz-transition: 
+		border-color 200ms ease-in-out, 
+		background 200ms ease-in-out;
+	transition: 
+		border-color 200ms ease-in-out, 
+		background 200ms ease-in-out;  	
+}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {
+	/* base */
+	
+	/* tools */
+	border-color: #B5B5B5;
+	background: #DEDEE0;
+}
+
+
+/* MageBridge Form 
+----------------------------------------------------------------------------------------------------*/
+/* from warp/tools.css */
+#magebridge-content .fieldset,
+.magebridge-module .fieldset {
+	margin-bottom: 30px;
+	padding: 0 10px 10px 10px;
+}
+#magebridge-content .fieldset.legend,
+.magebridge-module .fieldset.legend { padding: 0 10px; }
+#magebridge-content .fieldset > div,
+.magebridge-module .fieldset > div { margin: 15px 0; }
+
+#magebridge-content button,
+#magebridge-content input[type='button'],
+#magebridge-content input[type='reset'],
+.magebridge-module button,
+.magebridge-module input[type='button'],
+.magebridge-module input[type='reset'] { vertical-align: middle; }
+
+/* from tools.css */
+#magebridge-content .fieldset,
+.magebridge-module .fieldset { 
+	margin-bottom: 10px;
+	padding: 0 15px 5px;
+	border: 1px solid #DBDBDB;
+}
+
+#magebridge-content input, 
+#magebridge-content textarea, 
+#magebridge-content select,
+.magebridge-module input, 
+.magebridge-module textarea, 
+.magebridge-module select { 
+	padding: 7px;
+	border: 1px solid #DBDBDB;
+}
+
+.price-box .price,
+.regular-price {color:inherit;}
+/* ======================================================================================= */

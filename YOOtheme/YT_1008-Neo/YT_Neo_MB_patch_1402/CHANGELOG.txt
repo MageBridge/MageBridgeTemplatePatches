@@ -1,0 +1,18 @@
+Changelog
+------------
+
+1.4.0.2
+^ split default.css into default.css and custom.css
+
+1.4.0.1
++ Initial Release
+
+
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note

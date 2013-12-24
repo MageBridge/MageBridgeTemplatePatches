@@ -1,0 +1,20 @@
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #ea5353;}
+
+.magebridge-module button.button,
+#magebridge-content button.button {
+	border-bottom: 1px solid #06a4a3;
+	background-color: #4cd1d0;
+}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	border-bottom-color: #b61212;
+	background-color: #ea5353;
+}

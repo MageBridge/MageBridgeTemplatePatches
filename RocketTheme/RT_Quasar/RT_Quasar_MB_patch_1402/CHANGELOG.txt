@@ -1,0 +1,23 @@
+Changelog
+------------
+
+1.4.0.2
++ added magebridge-styles-ie.css
++ directory features
+- directory lib/gantry/features 
+
+1.4.0.1
+! Changed all to confirm the Magento 1.4.x code
+
+1.0.0
++ Initial Release
+
+
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note

@@ -1,0 +1,37 @@
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #394E5D;}
+#magebridge-content .fieldset .legend {color:#394E5D;border-color: #394E5D;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.bodyaccent-accent1 button.button  {	background-image:url("../../images/body/body1/accent1/a1-readon-r.png");}
+.bodyaccent-accent1 button.button span {background-image:url("../../images/body/body1/accent1/a1-readon-l.png");}
+.bodyaccent-accent1 button.button span span {background:none;}
+
+.bodyaccent-accent2 button.button  {	background-image:url("../../images/body/body1/accent2/a2-readon-r.png");}
+.bodyaccent-accent2 button.button span {background-image:url("../../images/body/body1/accent2/a2-readon-l.png");}
+.bodyaccent-accent2 button.button span span {background:none;}
+
+.bodyaccent-accent3 button.button  {	background-image:url("../../images/body/body1/accent3/a3-readon-r.png");}
+.bodyaccent-accent3 button.button span {background-image:url("../../images/body/body1/accent3/a3-readon-l.png");}
+.bodyaccent-accent3 button.button span span {background:none;}
+
+.bodyaccent-accent4 button.button  {	background-image:url("../../images/body/body1/accent4/a4-readon-r.png");}
+.bodyaccent-accent4 button.button span {background-image:url("../../images/body/body1/accent4/a4-readon-l.png");}
+.bodyaccent-accent4 button.button span span {background:none;}
+
+.bodyaccent-accent5 button.button  {	background-image:url("../../images/body/body1/accent5/a5-readon-r.png");}
+.bodyaccent-accent5 button.button span {background-image:url("../../images/body/body1/accent5/a5-readon-l.png");}
+.bodyaccent-accent5 button.button span span {background:none;}
+
+.bodyaccent-accent6 button.button  {	background-image:url("../../images/body/body1/accent6/a6-readon-r.png");}
+.bodyaccent-accent6 button.button span {background-image:url("../../images/body/body1/accent6/a6-readon-l.png");}
+.bodyaccent-accent6 button.button span span {background:none;}
+
+.bodyaccent-accent7 button.button  {	background-image:url("../../images/body/body1/accent7/a7-readon-r.png");}
+.bodyaccent-accent7 button.button span {background-image:url("../../images/body/body1/accent7/a7-readon-l.png");}
+.bodyaccent-accent7 button.button span span {background:none;}
+
+.bodyaccent-accent8 button.button  {	background-image:url("../../images/body/body1/accent8/a8-readon-r.png");}
+.bodyaccent-accent8 button.button span {background-image:url("../../images/body/body1/accent8/a8-readon-l.png");}
+.bodyaccent-accent8 button.button span span {background:none;}

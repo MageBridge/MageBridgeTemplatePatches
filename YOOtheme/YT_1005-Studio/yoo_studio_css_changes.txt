@@ -1,0 +1,312 @@
+/*
+ * MageBridge
+ */
+
+=========================================================================================================
+YOOTHEME STUDIO CHANGES
+=========================================================================================================
+Changes in templates/yoo_studio/css/com_magebridge/default.css 
+=========================================================================================================
+
+// Yootheme uses .subtitle in menu
+find
+.subtitle { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+change by
+#magebridge-content .subtitle { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+
+// Correct line height
+find
+.breadcrumbs { font-size:11px; line-height:1.25; margin:0 0 13px; }
+.breadcrumbs li { display:inline; }
+.breadcrumbs li strong { font-weight:bold; }
+change by
+#magebridge-content .breadcrumbs { font-size:11px; line-height:1.25; margin:0 0 13px; }
+#magebridge-content .breadcrumbs li { display:inline; }
+#magebridge-content .breadcrumbs li strong { font-weight:bold; }
+
+// Remove font 
+find
+input,select,textarea,button { font:12px/15px Arial, Helvetica, sans-serif; vertical-align:middle; color:#2f2f2f; }
+change by
+input,select,textarea,button { }
+
+// Remove padding
+find
+.product-essential { padding:25px;}
+change by
+.product-essential { }
+
+// Correct list styling
+find
+.links li { display:inline; }
+.links li.first { padding-left:0 !important; }
+.links li.last { background:none !important; padding-right:0 !important; }
+change by
+#magebridge-content .links li { display:inline; }
+#magebridge-content .links li.first { padding-left:0 !important; }
+#magebridge-content .links li.last { background:none !important; padding-right:0 !important; }
+
+// Remove margin
+find
+.no-display   { display:none; }
+change by
+.no-display   { display:none;margin:0; }
+
+// Remove product h1 styling 
+find
+.product-view .product-shop .product-name h1 { margin:0; font:bold 15px/1.35 Arial, Helvetica, sans-serif; }
+change by
+.product-view .product-shop .product-name h1 { margin:0;letter-spacing:-1px; }
+
+// Remove product h2 styling 
+find
+.product-essential h2 { font:bold 13px/1.35 Arial, Helvetica, sans-serif; }
+change by
+.product-essential h2 { margin:0;}
+
+// Remove wishlist & compare link colors
+find
+.product-view .product-shop .add-to-links a { color:#1E7EC8 !important; font-weight:normal !important; }
+change by
+.product-view .product-shop .add-to-links a { font-weight:normal !important; }
+
+find
+.link-cart { color:#dc6809 !important; font-weight:bold; }
+.link-wishlist { color:#dc6809 !important; font-weight:bold; }
+.link-reorder { font-weight:bold; color:#dc6809 !important; }
+change by
+.link-cart { font-weight:bold; }
+.link-wishlist { font-weight:bold; }
+.link-reorder { font-weight:bold; }
+
+// Prevent form div margin
+add
+#magebridge-content form div { margin: 0;}
+
+// Correct price padding
+find
+.product-view .product-shop .price-box { margin:10px 0; }
+change by
+#magebridge-content .product-view .product-shop .price-box { margin:10px 0; }
+
+// Correct add-to-box padding
+find
+.add-to-box { margin:10px 0; }
+change by
+#magebridge-content .add-to-box { margin:10px 0; }
+
+// Remove additional product info background and padding
+find 
+.product-collateral { background: transparent url(../../images/com_magebridge/main/side-li-bg-w.png) repeat-x scroll 0 0; padding:25px; }
+change by
+.product-collateral { padding:10px 0 25px 0; }
+
+// Styling of availability in studio style
+find
+.product-view .product-shop .availability { margin:10px 0; }
+change by
+.product-view .product-shop .availability { margin:10px 0; font-size:80%; letter-spacing:1px;line-height:150%;margin-top:0;text-transform:uppercase;}
+
+//Remove magento button styling
+add 
+#magebridge-content .add-to-cart button.button span { background:none;border: 0; padding:0;font-style:normal; font-size: inherit; font-family: inherit;font-weight: normal; text-align: left;}
+
+// Remove list padding
+find 
+#magebridge-content ul,#magebridge-content ol,
+.magebridge-module ul, .magebridge-module ol,
+#magebridge-content ul li,#magebridge-content ol li,
+.magebridge-module ul li, .magebridge-module ol li
+ { list-style:none;margin-left: 0px; }
+change by
+#magebridge-content ul,#magebridge-content ol,
+.magebridge-module ul, .magebridge-module ol,
+#magebridge-content ul li,#magebridge-content ol li,
+.magebridge-module ul li, .magebridge-module ol li
+ { list-style:none;margin-left: 0px; padding-left:0px;}
+
+//remove margin top
+find
+.product-options p.required { margin-bottom:0; padding:15px 0 0; }
+change by
+.product-options p.required { margin:0; padding:15px 0 0; }
+
+//remove h2 color
+find
+.account-login .content h2 { font-weight:bold; font-size:13px; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 1px; background-repeat:no-repeat; text-transform:uppercase; color:#e76200; }
+replace
+.account-login .content h2 { font-weight:bold; font-size:13px; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 1px; background-repeat:no-repeat; text-transform:uppercase;  }
+
+// remove fieldset margin and padding
+find 
+#magebridge-content fieldset      { border:0; }
+change by
+#magebridge-content fieldset      { border:0; margin:0; padding:0; }
+
+// correct add tag button styling
+find
+#addTagForm button.button { padding:0 15px 0 0; margin:5px 5px 0 0; text-align:center; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat right -40px; border:0; }
+change by
+#addTagForm button.button {  margin:0 5px; }
+
+// remove account login margin
+find
+.account-login { margin: 0 15px;}
+change by
+.account-login { margin: 0;}
+
+// correct fieldset margin and position
+find
+.fieldset { border:1px solid #bbafa0; background:#fbfaf6; padding:22px 25px 12px 33px; margin:28px 0; }
+.fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #f19900; background:#f9f3e3; color:#e76200; margin:-33px 0 0 -10px; padding:0 8px; position:relative; }
+change by
+#magebridge-content .fieldset { border:1px solid #bbafa0; background:#fbfaf6; padding:22px 25px 12px 33px; margin:28px 0; }
+#magebridge-content .fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #f19900; background:#f9f3e3; color:#e76200; margin:-33px 0 0 -10px; padding:0 8px; position:relative; }
+
+// correct padding
+find
+#addTagForm button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+change by
+#addTagForm button.button span { padding:0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+
+// remove image
+find
+.product-view .box-up-sell .products-grid td { width:25%; background: #F0F0F0 url(../../images/com_magebridge/main/module-h3.png) repeat-x scroll 0 100%; border-right:1px solid #CCC; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+change by
+.product-view .box-up-sell .products-grid td { width:25%; border-right:1px solid #CCC; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+
+// remove white background
+find
+.product-view .box-up-sell .products-grid td.empty { border-right:0; background:#FFF; }
+change by
+.product-view .box-up-sell .products-grid td.empty { border-right:0; }
+
+//change background image
+find
+.data-table .odd  { background:url("../images/mainbody/dark/side-bg.png") repeat scroll 50% 0 transparent; }
+.data-table .even { }
+change by
+.data-table .odd  { background: url(../../images/module_gradient.png) 0 110% repeat-x; }
+.data-table .even { background: url(../../images/module_gradient.png) 0 110% repeat-x; }
+
+// remove chart padding
+find
+.cart { margin:15px 15px;}
+change by
+.cart { margin:0;}
+
+// remove block padding
+find
+.block { border:none; margin:0 0 15px; }
+change by
+.block { border:none; margin:0; }
+
+// remove chart block total background
+find
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; background:#fbebd9; text-align:center; }
+change by
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; text-align:center; }
+
+// remove checkout button styling block
+find
+.block-cart button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat right -40px; border:0; }
+.block-cart button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+change by
+.block-cart button.button {  }
+.block-cart button.button span {border:0; }
+
+//remove font styling block
+find
+.block-login { font-size:11px; line-height:1.25; }
+change by
+.block-login { }
+
+// change subtotal styling
+find
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; text-align:center; }
+change by
+.block-cart .subtotal { margin: 0; padding: 0; }
+
+=========================================================================================================
+Changes in templates/yoo_studio/css/joomla.css 
+=========================================================================================================
+
+// Cart button styling
+find
+a.readmore {
+	display: block;
+	width: 110px;
+	height: 25px;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	float: left;
+	line-height: 25px;
+	text-indent: 10px;
+	font-size: 90%;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+}
+
+#page a.readmore { color: #515966; text-decoration: none; }
+
+#page a.readmore:hover {
+	background-position: 0 -30px;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+replace by
+a.readmore, div.add-to-cart button.button, buttons-set button.button, button.form-button {
+	display: block;
+	width: 110px;
+	height: 25px;
+	background: url(../images/readmore.png) 0 0 no-repeat;
+	float: left;
+	line-height: 25px;
+	text-indent: 10px;
+	font-size: 90%;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+}
+
+#page a.readmore, div.add-to-cart button.button span, button.form-button span { color: #515966; text-decoration: none; }
+
+#page a.readmore:hover, div.add-to-cart button.button:hover, div.add-to-cart button.button:hover span, button.form-button:hover span {
+	background-position: 0 -30px;
+	color: #ffffff;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+=========================================================================================================
+Changes in templates/yoo_studio/css/variations/[name].css 
+=========================================================================================================
+// In this example
+// #635B54 = h1 color
+// #944236 = h2 color
+// #EFEEED = #menu li.level2.parent .hover-box1 color
+
+// Change these colors for all variations
+
+#magebridge-content .price,
+#magebridge-content h2 { color: #635B54; }
+#magebridge-content .opc .active .step-title .number { background: #635B54; border-color: #635B54;}
+#magebridge-content .opc .allow .number  { background: #944236; border-color: #944236;color:#fff;}
+#magebridge-content .buttons-set button.button span, 
+#magebridge-content button.btn-continue span, 
+#magebridge-content button.btn-update span,
+#magebridge-content .form-add button.button span { background: #635B54; border:none; padding }
+#magebridge-content .fieldset .legend  { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 -60px repeat-x; color: #635B54; border:none; padding }
+#magebridge-content .opc .active .step-title { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 -60px repeat-x; }
+#magebridge-content .product-view .box-up-sell .products-grid   { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 120% repeat-x; }
+#magebridge-content .listing-type-grid ol.odd   { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 100% repeat-x;  overflow: hidden; padding: 0 20px;}
+#magebridge-content .cart-table thead { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 -63px repeat-x; }
+#magebridge-content .cart-table tfoot { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 -55px repeat-x; }
+#magebridge-content .product-options-bottom  { background: #EFEEED url(../../images/variations/red/module_layer_b.png) 0 -30px repeat-x; }
+#magebridge-content .add-to-cart button.button, #magebridge-content buttons-set button.button, button.form-button { background-image: url(../../images/variations/red/readmore.png); }
+
+button.button span, 
+.block-subscribe .actions button.button span, 
+#addTagForm button.button span, 
+.add-to-cart button.button, 
+.add-to-cart button.button span, 
+.cart button.button span { background: #635B54; border:none; }

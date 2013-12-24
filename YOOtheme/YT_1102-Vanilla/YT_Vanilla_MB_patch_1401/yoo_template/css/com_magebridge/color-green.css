@@ -1,0 +1,22 @@
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #9EBD40}
+
+/* MageBridge: replace by h2 colors*/
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #9EBD40;}
+#magebridge-content .product-options-bottom { background: #9EBD40}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button {
+	color: #FFFFFF; background-color: #94B03C;
+	}
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-color: #678B14;
+	}

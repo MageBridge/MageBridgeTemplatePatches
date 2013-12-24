@@ -1,0 +1,23 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	background: #ABA59E;
+	color: #DF625C;text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
+	}
+#magebridge-content button.button span,
+.magebridge-module button.button span,
+#magebridge-content button.button span span,
+.magebridge-module button.button span span {
+	}
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover {
+	background: #333;
+	}
+#magebridge-content button.button:hover span,
+.magebridge-module button.button:hover span {
+	color: #2B445B;text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	}
+
+/* ======================================================================================= */

@@ -1,0 +1,107 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a {color: #ffffff;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+
+/* Magebridge: Background image or color (background and broder from odd/even tablerow) */
+#magebridge-content .opc .step-title,
+#magebridge-content .data-table .even {background: #DEDEE0; background: rgba(0,0,0,0.08);}
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd { background: #E8E8E9; background: rgba(0,0,0,0.03);}
+#magebridge-content .fieldset .legend  {background: #ffffff;}
+#magebridge-content .data-table {border:0;}
+#magebridge-content .data-table thead th,
+#magebridge-content .data-table tbody th,
+#magebridge-content .data-table tbody td,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,
+#magebridge-content .product-view .box-up-sell .products-grid {border-color: #C8C8C8;}
+#magebridge-content .product-view .box-up-sell .products-grid td {border-right-color:#C8C8C8;}
+#magebridge-content .data-table tbody td {border-right-width:0px;}
+
+
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals {border:0;}
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #649ED9}
+
+/* MageBridge: replace by h2 colors*/
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #649ED9;}
+#magebridge-content .product-options-bottom { background: #649ED9; border:none;  }
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button {
+	display: inline-block;
+	height: 24px;
+	margin-right: 5px;
+	padding: 0 15px 0 22px;
+	background: #6594C2 url(../../images/readmore.png) 0 0 no-repeat;
+	line-height: 24px;
+	font-size: 12px;
+	color: #F2F1F0;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+.magebridge-module button.button span,
+.magebridge-module button.button span span,
+#magebridge-content button.button span, 
+#magebridge-content button.button span span {
+	border:none;
+	background:none;
+	}
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-color: #3C6A99;
+	background-position: 0 -34px;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+.magebridge-module button.button:after,
+#magebridge-content button.button:after {
+	content: "";
+	}
+	
+/* ======================================================================================= */

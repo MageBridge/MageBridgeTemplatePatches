@@ -1,0 +1,298 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+/*#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a {color: #ffffff;}*/
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+#magebridge-content .products-grid li.item {padding:12px 10px 100px;}
+
+
+/* Magebridge: Background image or color (background and broder from odd/even tablerow) */
+#magebridge-content .toolbar { border-top: 1px solid #282828; }
+#magebridge-content .toolbar .pager,
+#magebridge-content .toolbar .sorter {border:none;}
+#magebridge-content .products-grid.first { border-top: 1px solid #202020; }
+
+#magebridge-content .toolbar,
+#magebridge-content .cart-table thead th {
+	border-top: 1px solid #6f6f6f;
+	background: rgba(110,110,110,0.6);
+	background: -moz-linear-gradient(
+					50% 0%,
+					rgba(120,120,120,0.6) 0%,
+					rgba(98,98,98,0.6) 100%
+				);
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, rgba(120,120,120,0.6)),
+					color-stop(100%, rgba(98,98,98,0.6))
+				);
+	color: #999;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+
+#magebridge-content .products-grid,
+#magebridge-content .cart-table tbody tr {
+	border-bottom:none;
+	
+	background: rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 2px 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.15);
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.15);
+	}
+
+#magebridge-content .product-options-bottom,
+#magebridge-content .cart-table tfoot tr {
+	border-bottom:none;
+	
+	border-top: 1px solid #262626;
+	background: rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.1);
+	color: #666;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+#magebridge-content .products-grid.odd,
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd { background: rgba(255,255,255,0.05);}
+#magebridge-content .data-table {border:0;}
+#magebridge-content .data-table thead th,
+#magebridge-content .data-table tbody th,
+#magebridge-content .data-table tbody td,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,
+#magebridge-content .product-view .box-up-sell .products-grid {border: none;}
+#magebridge-content .product-view .box-up-sell .products-grid td {border:none;}
+
+#magebridge-content .data-table {border-collapse:inherit}
+#magebridge-content .data-table tbody th,
+#magebridge-content .data-table tbody td {border-bottom:0px;} 
+#magebridge-content .data-table tbody th,
+#magebridge-content .data-table tbody td {border-right:0px;}
+
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals {border:0;}
+
+/* MageBridge Form */
+#magebridge-content .fieldset {
+	background: transparent;
+	border: 1px solid #444;
+	
+	padding: 10px 15px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin-bottom: 30px;
+	}
+#magebridge-content .fieldset .legend  {
+	background: transparent;
+	color: #666;
+	font-size: 12px;
+	text-transform: uppercase;
+	
+	text-shadow: none;
+}
+
+#magebridge-content input.input-text,
+#magebridge-content input[type="text"],
+#magebridge-module input[type="text"],
+#magebridge-content input[type="password"],
+#magebridge-module input[type="password"],
+#magebridge-content select,
+#magebridge-module select,
+#magebridge-content textarea,
+#magebridge-module textarea {
+	border: 1px solid #262626;
+	background: #494949;
+	-moz-box-shadow:
+		0 0 0 1px rgba(255,255,255,0.03),
+		inset 0 1px 1px 1px rgba(0,0,0,0.15),
+		inset 0 0 10px rgba(0,0,0,0.25);
+	-webkit-box-shadow:
+		0 0 0 1px rgba(255,255,255,0.03),
+		inset 0 1px 1px 1px rgba(0,0,0,0.15),
+		inset 0 0 10px rgba(0,0,0,0.25);
+	box-shadow:
+		0 0 0 1px rgba(255,255,255,0.03),
+		inset 0 1px 1px 1px rgba(0,0,0,0.15),
+		inset 0 0 10px rgba(0,0,0,0.25);
+	color: #888;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	
+	padding: 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#magebridge-content input.input-text:focus,
+#magebridge-content input[type="text"]:focus,
+#magebridge-module input[type="text"]:focus,
+#magebridge-content input[type="password"]:focus,
+#magebridge-module input[type="password"]:focus,
+#magebridge-content select:focus,
+#magebridge-content textarea:focus,
+#magebridge-module textarea:focus {
+	border-color: #1f1f1f;
+	background-color: #4f4f4f;
+	-moz-box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.15),
+		inset 0 0 0 1px rgba(255,255,255,0.05),
+		inset 0 0 10px rgba(255,255,255,0.03);
+	-webkit-box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.15),
+		inset 0 0 0 1px rgba(255,255,255,0.05),
+		inset 0 0 10px rgba(255,255,255,0.03);
+	box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.15),
+		inset 0 0 0 1px rgba(255,255,255,0.05),
+		inset 0 0 10px rgba(255,255,255,0.03);
+	color: #ccc;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	
+	outline: none;
+}
+
+#magebridge-content .buttons-set {border-top:0;}
+
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .product-collateral h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {background: url(../../images/module_line_stacked.png) 0 100% repeat-x;border-bottom:none;}
+#magebridge-content .product-view .product-img-box .more-views li {margin: 0 0 8px 9px;}
+
+
+	
+#magebridge-content .page-title h1 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 26px;
+	text-transform: uppercase;
+	
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#magebridge-content .page-title {
+	border:none;
+	background: url("../../images/module_line_stacked.png") repeat-x scroll 0 100% transparent;
+
+	padding: 0 0 15px;
+	position: relative;
+
+	margin-bottom: 15px;
+}
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #ddd;text-shadow: 0 1px 0 rgba(0,0,0,0.7);}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button {
+	margin: 3px;
+	padding: 4px 10px;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	
+	background: #4C4B4B url(../../images/button_more.png) 0 0 repeat-x;
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.12),
+		0 1px 0 rgba(0,0,0,0.3),
+		0 0 0 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.12),
+		0 1px 0 rgba(0,0,0,0.3),
+		0 0 0 3px rgba(0,0,0,0.3);
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.12),
+		0 1px 0 rgba(0,0,0,0.3),
+		0 0 0 3px rgba(0,0,0,0.3);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+	}
+.magebridge-module button.button span,
+.magebridge-module button.button span span,
+#magebridge-content button.button span, 
+#magebridge-content button.button span span {
+	border:none;
+	background:none;
+	color:inherit;
+	font-size:inherit;
+	height:inherit;
+	line-height:inherit;
+	}
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-position: 0 -100px;
+	background-color: #BDBDBD;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+	}
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {
+	background-position: 0 -200px;
+	background-color: #353535;
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(0,0,0,1.0),
+		inset 0 2px 1px rgba(0,0,0,0.5),
+		inset 0 0 10px rgba(0,0,0,0.4),
+		0 0 0 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(0,0,0,1.0),
+		inset 0 2px 1px rgba(0,0,0,0.5),
+		inset 0 0 10px rgba(0,0,0,0.4),
+		0 0 0 3px rgba(0,0,0,0.3);
+	box-shadow:
+		inset 0 1px 0 rgba(0,0,0,1.0),
+		inset 0 2px 1px rgba(0,0,0,0.5),
+		inset 0 0 10px rgba(0,0,0,0.4),
+		0 0 0 3px rgba(0,0,0,0.3);
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	}
+
+/* ======================================================================================= */

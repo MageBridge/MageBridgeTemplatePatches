@@ -1,0 +1,234 @@
+/* Start of Magebridge added styling ===================================================== */
+
+
+#opc-login h3 {font-size:190%;}
+.product-options-bottom {background:rgba(0, 0, 0, 0.1);}
+
+#magebridge-content #recaptcha_widget_div {position: relative;top:0;}
+.component-content #magebridge-content .actions li {display:block;}
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h2,
+#magebridge-content .cart .crosssell h2 {margin-top:0;font-weight:normal;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+#magebridge-content .products-grid li.item {padding:12px 10px 100px;}
+
+
+/* Magebridge: Background image or color (background and border from odd/even tablerow) */
+#magebridge-content .products-grid.odd,
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd { background: none;}
+
+#magebridge-content .toolbar .pager,
+#magebridge-content .toolbar .sorter,
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals,
+#magebridge-content .data-table {border:0;}
+
+#magebridge-content .data-table thead,
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,
+#magebridge-content .product-view .box-up-sell .products-grid {border: none;}
+#magebridge-content .product-view .box-up-sell .products-grid td {border:none;}
+
+#magebridge-content .regular-price,
+#magebridge-content .price-box .price {color:inherit;}
+
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .product-collateral h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {border-bottom: 1px solid #DFDFDE;font-weight:normal;}
+#magebridge-content .product-view .product-img-box .more-views li {margin: 0 0 8px 9px;}
+
+	
+#magebridge-content .page-title h1,
+#magebridge-content .page-title h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #777;}
+
+
+/* joomla.css */
+#magebridge-content table {border-radius: 4px;border-collapse: separate;*border-collapse: collapse;margin-bottom: 15px;border-bottom: none !important;}
+#magebridge-content table th, .component-content .rt-joomla-table td, .component-content .rt-joomla-table .odd td, .component-content .rt-joomla-table .even td {padding: 10px;line-height: 18px;text-align: left;}
+#magebridge-content table th {font-weight: bold;vertical-align: middle;border: none;}
+#magebridge-content table td {vertical-align: top;}
+	#magebridge-content .ratings-table th, 
+	#magebridge-content .ratings-table td {padding:3px;}
+#magebridge-content table thead tr:first-child th:first-child,
+#magebridge-content table tbody tr:first-child td:first-child {border-radius: 4px 0 0 0;}
+#magebridge-content table thead tr:first-child th:last-child
+#magebridge-content table tbody tr:first-child td:last-child {border-radius: 0 4px 0 0;}
+#magebridge-content table tbody tr:last-child td:first-child {border-radius: 0 0 0 4px;}
+#magebridge-content table tbody tr:last-child td:last-child {border-radius: 0 0 4px 0;}
+
+	/* main-light.css */
+	#magebridge-content table {border: 1px solid #ddd;}
+	#magebridge-content table th + th, 
+	#magebridge-content table td + td, 
+	#magebridge-content table th + td {border-left: 1px solid #ddd;}
+	#magebridge-content table th,
+	#magebridge-content table td {background: #fff;border-bottom: 1px solid #ddd;}
+	#magebridge-content table tbody tr:nth-child(odd) td, 
+	#magebridge-content table tbody tr:nth-child(odd) th {background: #f9f9f9;}
+	#magebridge-content table tbody tr:hover td, 
+	#magebridge-content table tbody tr:hover th {background: #f5f5f5;}
+
+	/* main-dark.css */
+	.main-body-dark #magebridge-content table {border: 1px solid #383838;}
+	.main-body-dark #magebridge-content table th + th, 
+	.main-body-dark #magebridge-content table td + td, 
+	.main-body-dark #magebridge-content table th + td {border-left: 1px solid #383838;}
+	.main-body-dark #magebridge-content table th, 
+	.main-body-dark #magebridge-content table td {background: #252525;border-bottom: 1px solid #383838;}
+	.main-body-dark #magebridge-content table tbody tr:nth-child(odd) td, 
+	.main-body-dark #magebridge-content table tbody tr:nth-child(odd) th {background: #333;}
+	.main-body-dark #magebridge-content table tbody tr:hover td, 
+	.main-body-dark #magebridge-content table tbody tr:hover th {background: #363636;}
+
+
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button  {
+	/* template.css */
+	display: inline-block;
+    margin: 0;
+    overflow: visible;
+    
+	/* template.less */
+	font-family: 'ArvoRegular',Helvetica,Arial,sans-serif;
+	
+	color: black;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	/*border: 1px solid #E0D335;*/
+	position: relative;
+	text-shadow: none;
+	/*background-color: #E3D84B;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#E6DD61),color-stop(45%,#E3D84B),to(#E3D84B));
+	background-image: -webkit-linear-gradient(#E6DD61,#E3D84B 45%,#E3D84B);
+	background-image: -moz-linear-gradient(top,#E6DD61,#E3D84B 45%,#E3D84B);
+	background-image: -ms-linear-gradient(#E6DD61,#E3D84B 45%,#E3D84B);
+	background-image: -o-linear-gradient(#E6DD61,#E3D84B 45%,#E3D84B);
+	background-image: linear-gradient(#E6DD61,#E3D84B 45%,#E3D84B);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6dd61',endColorstr='#e3d84b',GradientType=0);*/
+	
+	display: inline-block;
+	padding: 3px 25px 3px 10px;
+	line-height: 1.7em;
+	font-size: .9em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.magebridge-module button.button span,
+#magebridge-content button.button span {
+	background: transparent;
+	border:none;
+	color:inherit;
+	height:inherit;
+	margin: 0;
+	outline: 0;
+	padding:0;
+}
+
+.magebridge-module button.button span span,
+#magebridge-content button.button span span,
+.main-body-dark .magebridge-module button.button span span,
+.main-body-dark #magebridge-content button.button span span  {
+	border:none;
+	background:none;
+	color:inherit;
+	font-size:inherit;
+	height:inherit;
+	line-height:inherit;
+	box-shadow:none;
+	text-shadow:none;
+	border-radius:none;
+	
+	/* template.css */
+/*	display: inline;
+	background: none;
+	margin-left: 0;
+	padding: 0;
+	float: none;*/
+	}
+.magebridge-module button.button span span:after,
+#magebridge-content button.button span span:after {}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	color: white;
+	border: 1px solid #2B2828;
+	background-color: #383435;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#454042),color-stop(45%,#383435),to(#383435));
+	background-image: -webkit-linear-gradient(#454042,#383435 45%,#383435);
+	background-image: -moz-linear-gradient(top,#454042,#383435 45%,#383435);
+	background-image: -ms-linear-gradient(#454042,#383435 45%,#383435);
+	background-image: -o-linear-gradient(#454042,#383435 45%,#383435);
+	background-image: linear-gradient(#454042,#383435 45%,#383435);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#454042', endColorstr='#383435', GradientType=0);
+}
+
+.magebridge-module button.button:hover span,
+#magebridge-content button.button:hover span {}
+
+.magebridge-module button.button:focus,
+#magebridge-content button.button:focus {}
+
+.magebridge-module button.button:focus span,
+#magebridge-content button.button:focus span {}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {}
+
+.magebridge-module button.button:active span,
+#magebridge-content button.button:active span {}
+
+/* ======================================================================================= */

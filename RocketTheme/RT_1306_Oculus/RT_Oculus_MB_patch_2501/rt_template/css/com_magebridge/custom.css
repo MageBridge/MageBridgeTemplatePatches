@@ -1,0 +1,256 @@
+/* Start of Magebridge added styling ===================================================== */
+
+
+#opc-login h3 {font-size:190%;}
+.product-options-bottom {background:rgba(0, 0, 0, 0.1);}
+
+#magebridge-content #recaptcha_widget_div {position: relative;top:0;}
+.component-content #magebridge-content .actions li {display:block;}
+
+.cart .crosssell .product-name,
+#upsell-product-table .product-name {line-height:1.2em;}
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h2,
+#magebridge-content .cart .crosssell h2 {margin-top:0;font-weight:normal;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+#magebridge-content .products-grid li.item {padding:12px 7px 100px;}
+
+
+/* Magebridge: Background image or color (background and border from odd/even tablerow) */
+#magebridge-content .products-grid.odd,
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd { background: none;}
+
+#magebridge-content .toolbar .pager,
+#magebridge-content .toolbar .sorter,
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals,
+#magebridge-content .data-table {border:0;}
+
+#magebridge-content .data-table thead,
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,
+#magebridge-content .product-view .box-up-sell .products-grid {border: none;}
+#magebridge-content .product-view .box-up-sell .products-grid td {border:none;}
+
+#magebridge-content .regular-price,
+#magebridge-content .price-box .price {color:inherit;}
+
+#magebridge-content .pager .limiter label,
+#magebridge-content .sorter .sort-by label {display:inline-block;}
+#magebridge-content .pager .limiter select {width:50px;}
+#magebridge-content .sorter .sort-by select {width:100px;}
+
+.product-options ul.options-list .label {background: none;}
+.price-notice .price {color: inherit;}
+.product-options dt label {color: inherit;}
+.product-options-bottom {border: none;}
+
+
+
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .product-collateral h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {border-bottom: 1px solid #DFDFDE;font-weight:normal;}
+#magebridge-content .product-view .product-img-box .more-views li {margin: 0 0 8px 9px;}
+
+#magebridge-content .product-collateral h2 {
+	border: none;
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 28px;
+	position: relative;
+}
+	
+	
+	
+	
+#magebridge-content .page-title h1,
+#magebridge-content .page-title h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* forms */
+#magebridge-content .fieldset .legend {background: none;}
+#magebridge-content .fieldset .legend + p {margin: 15px 0 0 0;}
+#magebridge-content .fieldset ul {margin: 15px 0 0 0;}
+.form-list label {color: inherit;}
+
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: inherit;}
+
+
+/* joomla.css */
+#magebridge-content table {border-radius: 4px;border-collapse: separate;*border-collapse: collapse;margin-bottom: 15px;border-bottom: none !important;}
+#magebridge-content table th, .component-content .rt-joomla-table td, .component-content .rt-joomla-table .odd td, .component-content .rt-joomla-table .even td {padding: 10px;line-height: 18px;text-align: left;}
+#magebridge-content table th {font-weight: bold;vertical-align: middle;border: none;}
+#magebridge-content table td {vertical-align: top;}
+	#magebridge-content .ratings-table th, 
+	#magebridge-content .ratings-table td {padding:3px;}
+#magebridge-content table thead tr:first-child th:first-child,
+#magebridge-content table tbody tr:first-child td:first-child {border-radius: 4px 0 0 0;}
+#magebridge-content table thead tr:first-child th:last-child
+#magebridge-content table tbody tr:first-child td:last-child {border-radius: 0 4px 0 0;}
+#magebridge-content table tbody tr:last-child td:first-child {border-radius: 0 0 0 4px;}
+#magebridge-content table tbody tr:last-child td:last-child {border-radius: 0 0 4px 0;}
+
+	/* main-light.css */
+	#magebridge-content table {border:none;}
+	#magebridge-content table th + th, 
+	#magebridge-content table td + td, 
+	#magebridge-content table th + td,
+	#magebridge-content table .label {
+		border:none;
+		padding: 8px;
+		line-height: 20px;
+		text-align: left;
+		vertical-align: top;
+		/*border-top: 1px solid #DDD;*/
+	}
+	#magebridge-content table th,
+	#magebridge-content table td {border:none;color:inherit;}
+	#magebridge-content table tbody tr:nth-child(odd) td, 
+	#magebridge-content table tbody tr:nth-child(odd) th {background: #282828;}
+	#magebridge-content table tbody tr:nth-child(odd):hover td, 
+	#magebridge-content table tbody tr:nth-child(odd):hover th {background: #353535;}
+	#magebridge-content table tbody tr:nth-child(even) td, 
+	#magebridge-content table tbody tr:nth-child(even) th {background: transparent;}
+	#magebridge-content table tbody tr:nth-child(even):hover td, 
+	#magebridge-content table tbody tr:nth-child(even):hover th {background: #353535;}
+	
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(odd) td, 
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(odd) th {background: #eaeaea;}
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(odd):hover td, 
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(odd):hover th {background: #fcfcfc;}
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(even) td, 
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(even) th {background: transparent;}
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(even):hover td, 
+	.main-body-style-light #magebridge-content table tbody tr:nth-child(even):hover th {background: #fcfcfc;}
+	/*#magebridge-content table tbody tr:hover td, 
+	#magebridge-content table tbody tr:hover th {background: #f5f5f5;}*/
+
+
+#shopping-cart-table img {max-width:none;}
+#shopping-cart-table .product-name {font-size:1.8em;}
+.minimal-price-link .label {background:none;text-shadow: none;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button  {
+	display: inline-block;
+	padding: 5px 15px;
+	font-size: 12px;
+	line-height: 24px;
+	border-radius: 5px;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 0;
+
+	color: #ffffff !important;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.1) !important;
+	background-color: #eaa343;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#eeb261),color-stop(50%,#EBA74A),to(#e79525));
+	background-image: -webkit-linear-gradient(#eeb261,#EBA74A 50%,#e79525);
+	background-image: -moz-linear-gradient(top,#eeb261,#EBA74A 50%,#e79525);
+	background-image: -o-linear-gradient(#eeb261,#EBA74A 50%,#e79525);
+	background-image: linear-gradient(#eeb261,#EBA74A 50%,#e79525);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedb260', endColorstr='#ffe69525', GradientType=0);
+	border-top: 1px solid #f8dfbd;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    
+    -webkit-tap-highlight-color: rgba(235,167,74,0.5);
+    
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.magebridge-module button.button span,
+#magebridge-content button.button span {
+	background: transparent;
+	border:none;
+	color:inherit;
+	height:inherit;
+	margin: 0;
+	outline: 0;
+	padding:0;
+}
+
+.magebridge-module button.button span span,
+#magebridge-content button.button span span,
+.main-body-dark .magebridge-module button.button span span,
+.main-body-dark #magebridge-content button.button span span  {
+	border:none;
+	background:none;
+	color:inherit;
+	font-size:inherit;
+	height:inherit;
+	line-height:inherit;
+	box-shadow:none;
+	text-shadow:none;
+	border-radius:none;
+	}
+.magebridge-module button.button span span:after,
+#magebridge-content button.button span span:after {
+	content: "+";
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-color: #eca94f;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#e79525),color-stop(50%,#EBA74A),to(#eeb261));
+	background-image: -webkit-linear-gradient(#e79525,#EBA74A 50%,#eeb261);
+	background-image: -moz-linear-gradient(top,#e79525,#EBA74A 50%,#eeb261);
+	background-image: -o-linear-gradient(#e79525,#EBA74A 50%,#eeb261);
+	background-image: linear-gradient(#e79525,#EBA74A 50%,#eeb261);
+	background-repeat: no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe69525', endColorstr='#ffedb260', GradientType=0);
+	border-top: 1px solid #e6911c;
+}
+
+/* ======================================================================================= */

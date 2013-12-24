@@ -1,0 +1,304 @@
+/*
+ * MageBridge
+ */
+
+=========================================================================================================
+YOOTHEME STUDIO CHANGES
+=========================================================================================================
+Changes in templates/yoo_mellow/css/com_magebridge/default.css 
+=========================================================================================================
+
+// Yootheme uses .subtitle in menu
+find
+.subtitle { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+change by
+#magebridge-content .subtitle { clear:both; padding:15px 0 0; font-size:15px; font-weight:bold; margin:0 0 6px; color:#e25203; }
+
+// Correct line height
+find
+.breadcrumbs { font-size:11px; line-height:1.25; margin:0 0 13px; }
+.breadcrumbs li { display:inline; }
+.breadcrumbs li strong { font-weight:bold; }
+change by
+#magebridge-content .breadcrumbs { font-size:11px; line-height:1.25; margin:0 0 13px; }
+#magebridge-content .breadcrumbs li { display:inline; }
+#magebridge-content .breadcrumbs li strong { font-weight:bold; }
+
+// Remove font 
+find
+input,select,textarea,button { font:12px/15px Arial, Helvetica, sans-serif; vertical-align:middle; color:#2f2f2f; }
+change by
+input,select,textarea,button { }
+
+// Remove padding
+find
+.product-essential { padding:25px;}
+change by
+.product-essential { }
+
+// Correct list styling
+find
+.links li { display:inline; }
+.links li.first { padding-left:0 !important; }
+.links li.last { background:none !important; padding-right:0 !important; }
+change by
+#magebridge-content .links li { display:inline; }
+#magebridge-content .links li.first { padding-left:0 !important; }
+#magebridge-content .links li.last { background:none !important; padding-right:0 !important; }
+
+// Remove margin
+find
+.no-display   { display:none; }
+change by
+.no-display   { display:none;margin:0; }
+
+// Remove product h1 styling 
+find
+.product-view .product-shop .product-name h1 { margin:0; font:bold 15px/1.35 Arial, Helvetica, sans-serif; }
+change by
+.product-view .product-shop .product-name h1 { margin:0;letter-spacing:-1px; }
+
+// Remove product h2 styling 
+find
+.product-essential h2 { font:bold 13px/1.35 Arial, Helvetica, sans-serif; }
+change by
+.product-essential h2 { margin:0;}
+
+// Remove wishlist & compare link colors
+find
+.product-view .product-shop .add-to-links a { color:#1E7EC8 !important; font-weight:normal !important; }
+change by
+.product-view .product-shop .add-to-links a { font-weight:normal !important; }
+
+find
+.link-cart { color:#dc6809 !important; font-weight:bold; }
+.link-wishlist { color:#dc6809 !important; font-weight:bold; }
+.link-reorder { font-weight:bold; color:#dc6809 !important; }
+change by
+.link-cart { font-weight:bold; }
+.link-wishlist { font-weight:bold; }
+.link-reorder { font-weight:bold; }
+
+// Correct price padding
+find
+.product-view .product-shop .price-box { margin:10px 0; }
+change by
+#magebridge-content .product-view .product-shop .price-box { margin:10px 0; }
+
+// Correct add-to-box padding
+find
+.add-to-box { margin:10px 0; }
+change by
+#magebridge-content .add-to-box { margin:10px 0; }
+
+// Remove additional product info background and padding
+find 
+.product-collateral { background: transparent url(../../images/com_magebridge/main/side-li-bg-w.png) repeat-x scroll 0 0; padding:25px; }
+change by
+.product-collateral { padding:10px 0 25px 0; }
+
+// Remove list padding
+find 
+#magebridge-content ul,#magebridge-content ol,
+.magebridge-module ul, .magebridge-module ol,
+#magebridge-content ul li,#magebridge-content ol li,
+.magebridge-module ul li, .magebridge-module ol li
+ { list-style:none;margin-left: 0px; }
+change by
+#magebridge-content ul,#magebridge-content ol,
+.magebridge-module ul, .magebridge-module ol,
+#magebridge-content ul li,#magebridge-content ol li,
+.magebridge-module ul li, .magebridge-module ol li
+ { list-style:none;margin-left: 0px; padding-left:0px;}
+
+//remove margin top
+find
+.product-options p.required { margin-bottom:0; padding:15px 0 0; }
+change by
+.product-options p.required { margin:0; padding:15px 0 0; }
+
+//remove h2 color
+find
+.account-login .content h2 { font-weight:bold; font-size:13px; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 1px; background-repeat:no-repeat; text-transform:uppercase; color:#e76200; }
+replace
+.account-login .content h2 { font-weight:bold; font-size:13px; margin:0 0 14px; padding:0 0 5px 23px; border-bottom:1px solid #ddd; background-position:0 1px; background-repeat:no-repeat; text-transform:uppercase;  }
+
+// remove fieldset margin and padding
+find 
+#magebridge-content fieldset      { border:0; }
+change by
+#magebridge-content fieldset      { border:0; margin:0; padding:0; }
+
+// correct add tag button styling
+find
+#addTagForm button.button { padding:0 15px 0 0; margin:5px 5px 0 0; text-align:center; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat right -40px; border:0; }
+change by
+#addTagForm button.button {  margin:0 5px; }
+
+// remove account login margin
+find
+.account-login { margin: 0 15px;}
+change by
+.account-login { margin: 0;}
+
+// correct fieldset margin and position
+find
+.fieldset { border:1px solid #bbafa0; background:#fbfaf6; padding:22px 25px 12px 33px; margin:28px 0; }
+.fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #f19900; background:#f9f3e3; color:#e76200; margin:-33px 0 0 -10px; padding:0 8px; position:relative; }
+change by
+#magebridge-content .fieldset { border:1px solid #bbafa0; background:#fbfaf6; padding:22px 25px 12px 33px; margin:28px 0; }
+#magebridge-content .fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #f19900; background:#f9f3e3; color:#e76200; margin:-33px 0 0 -10px; padding:0 8px; position:relative; }
+
+// correct padding
+find
+#addTagForm button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+change by
+#addTagForm button.button span { padding:0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+
+// remove image
+find
+.product-view .box-up-sell .products-grid td { width:25%; background: #F0F0F0 url(../../images/com_magebridge/main/module-h3.png) repeat-x scroll 0 100%; border-right:1px solid #CCC; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+change by
+.product-view .box-up-sell .products-grid td { width:25%; border-right:1px solid #CCC; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+
+// remove white background
+find
+.product-view .box-up-sell .products-grid td.empty { border-right:0; background:#FFF; }
+change by
+.product-view .box-up-sell .products-grid td.empty { border-right:0; }
+
+// remove chart padding
+find
+.cart { margin:15px 15px;}
+change by
+.cart { margin:0;}
+
+// remove block padding
+find
+.block { border:none; margin:0 0 15px; }
+change by
+.block { border:none; margin:0; }
+
+// remove chart block total background
+find
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; background:#fbebd9; text-align:center; }
+change by
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; text-align:center; }
+
+// remove checkout button styling block
+find
+.block-cart button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat right -40px; border:0; }
+.block-cart button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+change by
+.block-cart button.button {  }
+.block-cart button.button span {border:0; }
+
+//remove font styling block
+find
+.block-login { font-size:11px; line-height:1.25; }
+change by
+.block-login { }
+
+// change subtotal styling
+find
+.block-cart .subtotal { margin:5px 0 0; padding:2px 0; text-align:center; }
+change by
+.block-cart .subtotal { margin: 0; padding: 0; }
+
+// header class used by template
+find
+.header { width:930px; margin:0 auto; padding:10px; text-align:right; position:relative; z-index:10; }
+change by
+#magebridge-content .header { width:930px; margin:0 auto; padding:10px; text-align:right; position:relative; z-index:10; }
+
+=========================================================================================================
+Additions to templates/yoo_mellow/css/com_magebridge/default.css 
+=========================================================================================================
+
+/* Added styling */
+#magebridge-content form div { margin: 0;}
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, #magebridge-content ol, #magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .fieldset  {/*gradiant if availible */ background:  #F0F0F0;}
+#magebridge-content .opc .step  {/*gradiant if availible */ background:  #F0F0F0; }
+#magebridge-content .account-login .content {/*gradiant if availible */ background:  #F0F0F0; }
+.mini-products-list {margin: 0;}
+.mini-newsletter h4 {display: none;}
+.mini-newsletter fieldset {border: none;margin:0;padding: 0;}
+.data-table .odd  {/*gradiant if availible */ background:  #F0F0F0; }
+.data-table .even {/*gradiant if availible */ background:  #F0F0F0; }
+.cart-table thead {/*gradiant if availible */ background:  #D7D7D7; }
+.cart-table tfoot {/*gradiant if availible */ background:  #D7D7D7; }
+.fieldset .legend  {/*gradiant if availible */ background:  #F0F0F0; }
+.opc .active .step-title {/*gradiant if availible */ background:  #F0F0F0; }
+.product-view .box-up-sell .products-grid   {background:  #F0F0F0; }
+.listing-type-grid ol.odd   {/*gradiant if availible */ background:  #F0F0F0;}
+#magebridge-content .product-options-bottom{/*gradiant if availible */ background:  #D7D7D7; }
+#magebridge-content .product-options {/*gradiant if availible */ background:  #F0F0F0;margin-top: 20px; }
+.block-subscribe .actions button.button  {background: none;padding: 0;margin: 0;}
+.block-subscribe .actions button.button span  {background: none;padding: 0 10px;}
+
+/* Frontpage styling */
+/* Grid Type */
+.listing-type-grid {}
+.listing-type-grid h5, /*product name*/
+.listing-type-grid .product-image, /*product name*/
+.listing-type-grid .ratings, /*product rating*/
+.listing-type-grid .price-box, /*product price*/
+.listing-type-grid .out-of-stock, /*oos msg*/
+.listing-type-grid .add-to /*product link*/
+.listing-type-grid .form-button /*add button*/ {margin: 0 10px 8px;}
+.listing-type-grid h5 {font-size: 100%;}
+.listing-type-grid ol.grid-row {border-top: 1px solid #D5D5D5;}
+.listing-type-grid li.item {float: left;overflow: hidden;width: 33.3%;margin: 0 !important;padding: 15px 0 25px 0;}
+.listing-type-grid li.item {width:24.75%;}
+.listing-type-grid li.last {}
+.listing-type-grid .product-image {text-align: left;vertical-align: bottom;}
+.listing-type-grid .rating-box {float: left;margin-left: 0;margin-right: 10px;}
+.listing-type-grid .ratings a {}
+.listing-type-grid .actions {margin: 10px 0;text-align: center;}
+.listing-type-grid .add-to {margin: 0 10px;clear: both;padding-top: 10px;}
+.listing-type-grid .pipe {display: none;}
+
+/*MageBridge replace colors by h1 colors*/
+#magebridge-content h2 { color: #fa641e;  }
+#magebridge-content .opc .active .step-title .number { background: #fa641e; border:none;}
+button.button span, 
+.block-subscribe .actions button.button span, 
+#addTagForm button.button span, 
+.add-to-cart button.button, 
+.add-to-cart button.button span, 
+.cart button.button span { background: #fa641e; border:none; }
+
+=========================================================================================================
+Additions to templates/yoo_mellow/css/variations/[name].css 
+=========================================================================================================
+// In this example
+// #BD3741 = h1 color in variation style
+// #F2F0E6 = wrapper-3 color
+// #E1DDC8 = div.mod-rounded div.box-t3 color
+
+/*MageBridge */
+#magebridge-content h2 { color: #68839a; }
+#magebridge-content .opc .active .step-title .number { background: #68839a; border:none;}
+button.button span, 
+.block-subscribe .actions button.button span, 
+#addTagForm button.button span, 
+.add-to-cart button.button, 
+.add-to-cart button.button span, 
+.cart button.button span { background: #68839a; border:none; }
+#magebridge-content .fieldset  {/*gradiant if availible */ background:  #F2F0E6;}
+#magebridge-content .opc .step  {/*gradiant if availible */ background:  #F2F0E6; }
+#magebridge-content .account-login .content {/*gradiant if availible */ background:  #F2F0E6; }
+.data-table .odd  {/*gradiant if availible */ background:  #F2F0E6; }
+.data-table .even {/*gradiant if availible */ background:  #F2F0E6; }
+.cart-table thead {/*gradiant if availible */ background:  #E1DDC8; }
+.cart-table tfoot {/*gradiant if availible */ background:  #E1DDC8; }
+.fieldset .legend  {/*gradiant if availible */ background:  #F2F0E6; }
+.opc .active .step-title {/*gradiant if availible */ background:  #E1DDC8; }
+.product-view .box-up-sell .products-grid   {background:  #F2F0E6; }
+.listing-type-grid ol.odd   {/*gradiant if availible */ background:  #F2F0E6;}
+#magebridge-content .product-options-bottom{/*gradiant if availible */ background:  #E1DDC8; }
+#magebridge-content .product-options {/*gradiant if availible */ background:  #F2F0E6; }

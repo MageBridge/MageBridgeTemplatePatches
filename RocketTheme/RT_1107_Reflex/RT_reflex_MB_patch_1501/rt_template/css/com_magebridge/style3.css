@@ -1,0 +1,9 @@
+.magebridge-module button.button span,
+#magebridge-content button.button span,
+#magebridge-content .opc .active .step-title h2,
+#magebridge-content .opc .active .step-title .number {color: #2B90CD;}	
+
+.magebridge-module button.button span,
+#magebridge-content button.button span {
+	background: #fff url(../../images/style3/readon-bg.png) 50% 100% repeat-x;
+	}

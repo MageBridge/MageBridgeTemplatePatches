@@ -1,0 +1,28 @@
+#magebridge-content input.input-text,
+.magebridge-module input.input-text,
+#magebridge-content input[type="text"],
+.magebridge-module input[type="text"],
+#magebridge-content input[type="password"],
+.magebridge-module input[type="password"],
+#magebridge-content select,
+.magebridge-module select,
+#magebridge-content textarea,
+.magebridge-module textarea {
+	background-image: url("../../styles/orange/images/tools/list_zebra.png");
+	}
+	
+	
+.magebridge-module button.button, 
+#magebridge-content button.button {
+    background-image: url(../../styles/orange/images/tools/button_more.png);
+	color: #FFDEA4;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	}
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-color: #A53B39;	
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	}
+	

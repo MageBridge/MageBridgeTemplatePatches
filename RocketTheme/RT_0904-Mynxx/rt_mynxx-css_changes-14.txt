@@ -1,0 +1,220 @@
+/*
+ * MageBridge
+ */
+API / Host: magento1323.magebridge.com
+Theming / CSS settings: deactivate style.css
+
+Magento 1.4.x
+cp template template_m13
+cp -a template_m13 template_m14
+joomla administrator components magebridge configuration theming -> disable style.css
+
+LET OP: buttons zijn 20px hoog
+
+/*
+ * rt_head_includes.php
+ */
+open rt_head_includes.php
+add code from other php template php rt_head_includes.php 
+
+	a, legend, #main-body ul.menu li a:hover, #main-body ul.menu li.parent li a:hover, #main-body ul.menu li.parent ul li.parent ul li a:hover, #main-body ul.menu li.active a, #main-body ul.menu li.parent li.active a, #main-body ul.menu li.parent li.parent li.active a, #main-body ul.menu li.cat-open a, #main-body ul.menu li.parent li.cat-open a, #main-body ul.menu li.parent li.parent li.cat-open a, .roktabs-wrapper .roktabs-links ul li.active span, .color h3 span, #vmMainPage span.catbar-text h3, div.pathway a {color: <?php echo $this->params->get( 'primaryColor' ); ?>;}
+change by
+	a, legend, #main-body ul.menu li a:hover, #main-body ul.menu li.parent li a:hover, #main-body ul.menu li.parent ul li.parent ul li a:hover, #main-body ul.menu li.active a, #main-body ul.menu li.parent li.active a, #main-body ul.menu li.parent li.parent li.active a, #main-body ul.menu li.cat-open a, #main-body ul.menu li.parent li.cat-open a, #main-body ul.menu li.parent li.parent li.cat-open a, .roktabs-wrapper .roktabs-links ul li.active span, .color h3 span, #vmMainPage span.catbar-text h3, div.pathway a, 	
+	.cart .discount h2,.cart .shipping h2,.info-set h3,.info-set h4,.info-set .box h2,.multiple-checkout h3,.multiple-checkout h4,.multiple-checkout .box h2,.addresses-list h2,.product-collateral h2 {color: <?php echo $this->params->get( 'primaryColor' ); ?>;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * IMAGES
+ */
+Create new directory "mb14" in images directory
+Copy all images needed in magento style.css to this directory using commandline:
+[root@ns2.jira.nl /home/mageb01/public_html/templates/mynxx/templates/rt_mynxx_j15_m14/images/mb14] 
+# for i in $(grep images ../../css/magebridge-styles.css | awk -F images\/ '{print $NF}' | awk -F \) '{print $1}' | sort | uniq);do echo cp ../../../../../../magento140/skin/frontend/default/default/images/$i .;done
+
+/*
+ * CSS
+ */ 
+== Images
+ url(../images/
+ wijzigen in
+ url(../images/mb14/
+
+== Reset
+disable css for body, a, heading
+add #magebridge-content to fieldset
+
+plaats de content tegen de randen aan.
+/* Layout ================================================================================ */
+add after
+#magebridge-content {margin: 0 -15px;}
+===border van contenstuk verwijderen
+.product-view { border:1px solid #c4c6c8; }
+change by
+.product-view { border:none;/*border:1px solid #c4c6c8;*/ }
+
+===add margin to full width pages
+/* Shopping Cart ========================================================================= */
+add after
+.cart {margin:15px 15px;}
+
+/* Checkout ============================================================================== */
+add after
+#checkoutSteps { margin: 0 15px;}
+
+/* Account Login/Create Pages ============================================================ */
+add after
+.account-login { margin: 0 15px;}
+
+haal titel en category intro content van de rand
+.page-title { width:100%; overflow:hidden; border-bottom:1px solid #ccc; margin:0 0 25px; }
+wijzigen in
+.page-title { width:100%; overflow:hidden; border-bottom:1px solid #ccc; margin:0 0 25px; padding: 3px 8px;}
+
+.category-description { margin:0 0 10px; }
+wijzigen in
+.category-description { margin:0 0 10px; padding: 3px 8px;}
+
+
+
+===Modules
+==== border van modules opheffen, zodat opmaakt overeenkomt met RT modules.
+ .block { border:1px solid #c4c1bc; margin:0 0 15px;  }
+ wijzigen in
+ .block { border:none; margin:0 0 15px; }
+==== verberg de titel, omdat deze ook al voorkomt in de modulebenaming.
+ .block .block-title { background:url(../images/mb14/bkg_block-title.gif) 0 0 repeat-x; border-bottom:1px solid #ddd; padding:2px 9px; }
+ wijzigen in
+ .block .block-title { display:none; }
+==== padding van contentgedeelte van moduleblok opheffen, zodat uitlijning overeenkomt met content van RT modules
+ .block-tags .block-content ul { font-size:12px; padding:10px; }
+ wijzigen in
+ .block-tags .block-content ul { font-size:12px; padding:0; }
+==== achtergrondkleur contentgedeelte moduleblok opheffen
+ .block .block-content { background:#f8f7f5; }
+ wijzigen in
+ .block .block-content { background:none; }
+==== achtergrondkleur bij actiongedeelte van moduleblok opheffen
+ .block .actions { background:#dee5e8 url(../images/mb14/bkg_block-actions.gif) 0 0 repeat-x; padding:6px 9px; text-align:right; }
+ wijzigen in
+ .block .actions { background:none; padding:6px 9px; text-align:right; }
+
+
+=== Module - newsletter
+==== verwijder overbodige padding in content
+ .block-subscribe .block-content { padding:5px 10px; }
+ wijzigen in
+ .block-subscribe .block-content { padding:0; }
+
+
+=== Module - layered navigation
+====verwijder border en achtergrondkleur
+ .block-layered-nav .block-content { border:1px solid #a0b3c3; background:#e7f1f4; }
+ wijzigen in
+ .block-layered-nav .block-content { border:none; background:none; }
+====verwijder achtergrondplaatje van layered nav subtitle
+ .block-layered-nav .block-subtitle { line-height:1.35; background:#d5e8ff url(../images/mb14/bkg_block-layered1.gif) 0 50% repeat; padding:3px 9px; border:1px solid #b9ccdd; border-width:1px 0; text-transform:uppercase; color:#1f5070; }
+ wijzigen in
+ .block-layered-nav .block-subtitle { line-height:1.35; background:none; padding:3px 2px; border:1px solid #b9ccdd; border-width:1px 0px; text-transform:uppercase; }
+==== verwijder achtergrondplaatje van layered nav actions
+ .block-layered-nav .actions { font-size:11px; padding:4px 9px; background:#cad6e4; border:1px solid #dee5e8; border-width:1px 0; text-align:right; }
+ wijzigen in
+ .block-layered-nav .actions { font-size:11px; padding:4px 2px; background:none; border:1px solid #dee5e8; border-width:1px 0; text-align:right; }
+==== verwijder achtergrondplaatje van layered nav gekozen actie
+ .block-layered-nav .currently li { background:#fff url(../images/mb14/bkg_block-layered-li.gif) 0 100% repeat-x; padding:4px 6px 4px 10px; }
+ wijzigen in
+ .block-layered-nav .currently li { background:none; padding:4px 6px 4px 10px; }
+
+
+=== Module - MageBridge: Custom Block: Catalog: Top Navigation
+als deze ingeladen is aan de linkerzijde dan veroorzaakt hij een probleem 
+ #nav is namelijk 918px breed en komt over de andere onderdelen heen te liggen
+ #nav { width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
+ wijzigen in
+ #nav { /*width:0px;*/ width:918px; margin:0 auto; padding:0 16px; font-size:13px; }
+ blauwe achtergrond verwijderen
+verdere opmaakt is aan de klant zelf
+  .nav-container { background:#0a263d url(../images/mb14/bkg_nav0.jpg) 50% 0 repeat-y; }
+ wijzigen in
+ /*.nav-container { background:#0a263d url(../images/mb14/bkg_nav0.jpg) 50% 0 repeat-y; }*/
+
+=== Module - MageBridge: Menu
+RT template override
+cp modules/mod_magebridge_menu/tmpl/* templates/<theme>/html/mod_magebridge_menu/
+ <a href="<?php echo $item['url']; ?>"><?php echo $item['name']; ?></a>
+ twee maal wijzigen in
+ <a href="<?php echo $item['url']; ?>"><span><?php echo $item['name']; ?></span></a>
+
+=== Module - block-cart
+ronde knop
+.block-cart .actions { border-bottom:1px solid #c2c2c2; }
+ add after
+.block-cart button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../images/mb14/add-to-cart.png) no-repeat right -40px; border:0; }
+.block-cart button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../images/mb14/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+.block-cart button.button span span {padding:0; background:none; }
+
+=== Module - Tags
+.product-view .box-tags .note { margin:3px 0 0; padding:0 0 0 23px; font-size:11px; }
+ add after
+#addTagForm button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../images/mb14/add-to-cart.png) no-repeat right -40px; border:0; }
+#addTagForm button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../images/mb14/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+#addTagForm button.button span span {padding:0; background:none; }
+
+
+== CATALOG ==
+=== ADD-TO-CART ===
+.category-products {}
+ add after
+.category-products button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../images/mb14/add-to-cart.png) no-repeat right -40px; border:0; }
+.category-products button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../images/mb14/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+.category-products button.button span span {padding:0; background:none; }
+
+== PRODUCT ==
+=== Product description
+achtergrondplaatje wijzigen
+.product-collateral { background:#faf7ee url(../images/mb14/bkg_product_collateral.gif) 0 0 repeat-x; padding:25px; }
+wijzigen in
+.product-collateral { background: transparent url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; padding:25px; }
+=== Additional information
+.data-table .odd  { background:#f8f7f5 }
+.data-table .even { background:#eeeded; }
+wijzigen in
+.data-table .odd  { background: #FFFFFF url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+.data-table .even { background: #FFFFFF url(../images/main/side-li-bg-w.png) repeat-x scroll 0 0; }
+=== Cross selling
+border kleur wijzigen
+.product-view .box-up-sell .products-grid { width:100%; border:1px solid #e5dcc3; }
+wijzigen in
+.product-view .box-up-sell .products-grid { width:100%; border:1px solid #CCC; }
+achtergrondkleur wijzigen
+.product-view .box-up-sell .products-grid td { width:25%; background:#f6f2e7; border-right:1px solid #e5dcc3; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+wijzigen in
+.product-view .box-up-sell .products-grid td { width:25%; background: #F0F0F0 url(../images/main/module-h3.png) repeat-x scroll 0 100%; border-right:1px solid #CCC; border-bottom:1px solid #e5dcc3; padding:15px 10px 12px; line-height:1.6em; }
+borderkleur wijzigen
+.product-view .box-up-sell .products-grid td img { border:1px solid #e5dcc3; }
+wijzigen in
+.product-view .box-up-sell .products-grid td img { border:1px solid #CCC; }
+achtergrondkleur wijzigen
+.product-view .box-up-sell .products-grid td.empty { border-right:0; background:#f1ecdb; }
+wijzigen in
+.product-view .box-up-sell .products-grid td.empty { border-right:0; background:#FFF; }
+
+=== ADD-TO-CART ===
+ .add-to-cart button.button { float:left; }
+ add after
+ .add-to-cart .button.button { padding:0 15px 0 0; margin-right:5px; text-align:center; background:transparent url(../images/mb14/add-to-cart.png) no-repeat right -40px; border:0; }
+.add-to-cart .button.button span { padding:0 0 0 15px; height:20px; line-height:20px; background:transparent url(../images/mb14/add-to-cart.png) no-repeat left top; color:#fff; border:0; }
+.add-to-cart .button.button span span {padding:0; background:none; }

@@ -1,0 +1,22 @@
+/* move to color-blue.css */
+	
+/* Magebridge: H1 color */
+#magebridge-content .page-title h1 {    
+	color: #ff3333;
+	text-shadow:
+		0 -1px 0 rgba(0,0,0,0.4),
+		0 0 4px rgba(255,51,51,0.4);
+	}
+
+/* Magebridge: H3 color */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {
+	color: #ff5959;
+	text-shadow: 0 0 4px rgba(255,89,89,0.4);
+	}

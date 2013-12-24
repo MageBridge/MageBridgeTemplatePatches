@@ -1,0 +1,35 @@
+/* Start of Magebridge added styling ===================================================== */
+button.button {background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat right -40px;margin:0 5px 0 0;padding:0 15px 0 0;text-align:center;}
+button.button:hover {background-position: right -40px;}
+button.button span {background:transparent url(../../images/com_magebridge/add-to-cart.png) no-repeat left top;border:0;color:#EF8B05;font-family:georgia,garamond,serif;font-size:14px;height:25px;line-height:25px;padding:0;text-indent:15px;}
+button.button:hover span {background-position: top left;color:#EF8B05;}
+button.button span span {border:0;margin:0;background:none;}
+
+#rt-mainbody  #magebridge-content ul li {margin-bottom:0;padding-left:0}
+#rt-main-surround #magebridge-tags_popular ul li a {display:inline;padding-left:0;}
+.products-grid li.item {padding:12px 10px 100px;}
+.magebridge-content .cart {background-color:transparent;background-image:none;border:none;color:#000000;}
+.data-table {border:none;}
+.opc .active .step-title .number {background:#A46923;border-color:#A46923;}
+.opc .active .step-title h2 {color:#A46923;}
+.dashboard .box .box-title {border-bottom:1px dashed #000000;}
+
+
+.form-list li.additional-row, .buttons-set, .pager, .sorter, tr.tax-details-first td, .compare-table tbody td,.product-options-bottom, .block-progress dd, .opc .step, #opc-login .buttons-set, #opc-shipping_method .buttons-set, .checkout-progress li, .checkout-progress li.active, .account-login .buttons-set, .listing-type-grid ol.grid-row 
+	{ border-top:1px dashed #7E6248;}
+.data-table th.last, .data-table tfoot td, .data-table tbody th, .data-table tbody td, .compare-table tbody td.last, .product-view .box-up-sell .products-grid td, .product-view .box-up-sell .products-grid td.last, .product-view .box-up-sell .products-grid td.empty 
+	{ border-right:1px dashed #7E6248;}
+select.multiselect option, select.multiselect option:last-child, .page-title, .toolbar .pager, .toolbar .sorter, .data-table tbody th, .data-table tbody td, .data-table thead th, .data-table tfoot, .data-table tfoot td, .data-table tbody.even tr td, .data-table tbody.even tr.border td, .block-account .block-content li a, .block-account .block-content li.last a, .block-account .block-content li.current, .block-account .block-content li.current.last, .block-cart .actions, .compare-table tbody tr.last td, .products-grid, .products-grid.last, .products-list li.item, .products-list li.item.last, .product-collateral h2, .product-view .product-img-box .more-views h2, .product-options dd, .product-options dl.last dd.last, .product-options dd .multiselect option, .product-view .box-up-sell h2, .product-view .box-up-sell .products-grid td, .product-view .box-up-sell .products-grid tr.last td, .cart .page-title, .info-set h2.legend, .opc .allow .step-title, #opc-login h3, .multiple-checkout .col2-set h2.legend, .account-login .content, .account-login .content h2, .box-account .box-head 
+	{ border-bottom:1px dashed #7E6248;}
+.compare-table tbody td
+	{ border-left:1px dashed #7E6248;}
+input.input-text,select,textarea, .validation-failed, .data-table, .data-table tbody.odd tr.border td, .mini-products-list .product-image, .tier-prices, .product-view .product-img-box .more-views li a, .product-options, .product-view .box-up-sell .products-grid, .product-view .box-up-sell .products-grid td img, .tags-list, .advanced-search-summary, .cart .crosssell, .cart .crosssell .product-image, .cart .discount, .cart .shipping, .cart .totals, .truncated .truncated_full_value dl, .tool-tip, .checkout-agreements .agreement-content, .info-set, .block-progress dt, .opc .step-title .number, .multiple-checkout .col3-set, .checkout-multishipping-shipping .box-sp-methodsm .addresses-list li.item, .order-info, .order-info-box, .account-login .content, .account-login .buttons-set,.opc .allow .step-title, .opc .step, .opc .step-title 
+	{ border:1px dashed #7E6248;}
+
+.sorter {border-top:none;}
+.account-login .buttons-set {border-width:0 1px 1px}
+.opc .allow .step-title {border-width:1px 1px 0;}
+.opc .step {border-width:0 1px 1px;}
+.opc .step-title {border-width:0 1px 1px;}
+input.input-text,select,textarea {border-style:solid;}
+.product-view .product-img-box .more-views li a {border-width:2px;border-style:solid;}

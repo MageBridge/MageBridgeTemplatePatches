@@ -1,0 +1,21 @@
+/* Grid Type */
+.listing-type-grid {background:none;}
+.listing-type-grid h5, /*product name*/
+.listing-type-grid .product-image, /*product name*/
+.listing-type-grid .ratings, /*product rating*/
+.listing-type-grid .price-box, /*product price*/
+/*.listing-type-grid .form-button,*/ /*addtocart btn*/
+.listing-type-grid .out-of-stock, /*oos msg*/
+.listing-type-grid .add-to /*product link*/ {margin: 0 15px 8px;}
+.listing-type-grid h5 {font-size: 100%;}
+.listing-type-grid ol.grid-row {border-top: 1px solid #D5D5D5;}
+.listing-type-grid li.item {float: left;overflow: hidden;width: 33.3%;margin: 0 !important;padding: 15px 0;}
+.listing-type-grid li.item {width:24.75%;}
+.listing-type-grid ol.odd   {}
+.listing-type-grid li.last {}
+.listing-type-grid .product-image {text-align: left;vertical-align: bottom;}
+.listing-type-grid .rating-box {float: left;margin-left: 0;margin-right: 10px;}
+.listing-type-grid .ratings a {}
+.listing-type-grid .actions {margin: 10px 0;text-align: center;}
+.listing-type-grid .add-to {margin-bottom: 0;}
+.listing-type-grid .pipe {display: none;}

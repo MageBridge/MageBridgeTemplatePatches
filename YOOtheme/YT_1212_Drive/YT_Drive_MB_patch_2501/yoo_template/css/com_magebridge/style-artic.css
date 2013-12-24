@@ -1,0 +1,13 @@
+/* Light */
+.mod-box-color .magebridge-module button.button,
+.mod-box-color .magebridge-module input[type="button"],
+.mod-box-color .magebridge-module input[type="submit"],
+#magebridge-content button.button:hover,
+#magebridge-content input[type="button"]:hover,
+#magebridge-content input[type="submit"]:hover,
+.magebridge-module button.button:hover,
+.magebridge-module input[type="button"]:hover,
+.magebridge-module input[type="submit"]:hover {
+	color: white;
+	text-shadow: 0 0 6px rgba(224, 243, 254, 0.5);
+}

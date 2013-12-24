@@ -1,0 +1,10 @@
+.magebridge-module button.button,
+#magebridge-content button.button  {}
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background: #91C540;
+}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {}

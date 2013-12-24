@@ -1,0 +1,81 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(gradient.css);
+@import url(gradient_fonts.css);
+
+/* layout */
+body.yoopage { background: #050A1B url(../../images/variations/gradientblue/page_bg.jpg) 50% 0 no-repeat; }
+div#page-body { background: none; }
+
+#menubar { background-image: url(../../images/variations/gradientblue/menubar_bg.png); }
+
+/* typography */
+h2,
+h4,
+h6 { color: #537195; }
+
+a:link,
+a:visited { color: #487DB3; }
+a:hover { color: #164e78; }
+
+ul.links li { background-image: url(../../images/variations/gradientblue/list_links.png); }
+#page ul.links li a:hover { color: #487DB3; }
+
+/* menus */
+#menu a.level3 span.bg,
+#menu span.level3 span.bg {	background-image: url(../../images/variations/gradientblue/menu_level3_item.png); }
+
+#menu a.level3:hover span.bg { color: #164e78; }
+
+div.mod-line ul.menu li.level2 span.bg { background: url(../../images/variations/gradientblue/submenu_level2_item.png) 0px 50px no-repeat; }
+div.mod-line ul.menu li.level2 a:hover span.bg { color: #164e78; }
+
+/* modules */ 
+div.mod-glow-templatecolor div.box-1 { background-color: #46526A; }
+div.mod-glow-templatecolor em.box { border: 1px dotted #212632; background: #3A4458; }
+
+div.mod-glass div.box-1 { background-image: url(../../images/variations/gradientblue/module_glass_bg.png); }
+div.mod-glass div.box-4 { 
+	background-image: url(../../images/variations/gradientblue/module_glass_line_v.png);
+	color: #323232;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+div.mod-glass div.box-2,
+div.mod-glass div.box-3 { background-image: url(../../images/variations/gradientblue/module_glass_line_h.png); }
+
+div.mod-glass div.box-4 a { color: #323232; }
+div.mod-glass div.box-4 a:hover { color: #141414; text-shadow: 0 1px 1px rgba(255,255,255,0.7); }
+
+/* joomla */
+#page a.readmore {	background: url(../../images/variations/gradientblue/readmore.png) 100% 0 no-repeat; }
+#page a.readmore:hover { background: url(../../images/variations/gradientblue/readmore.png) 100% -27px no-repeat; }
+
+/* custom */
+#page #logo a.logo-icon {	
+	height: 115px;
+	background-image: url(../../../../images/yootheme/logo_gradientblue.png);
+}
+
+
+/* ======================================================================================= */
+/* Start of Magebridge added styling */
+/* ======================================================================================= */
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #ffffff; background: url("../../images/variations/gradientblue/menubar_bg.png") repeat-x scroll 0 -2px transparent;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content .add-to-cart button.button span span, 
+#magebridge-content button.form-button span, 
+#magebridge-content .category-products button.button span span{
+	background: url(../../images/variations/gradientblue/readmore.png) 100% 0 no-repeat;
+	}
+#magebridge-content .add-to-cart button.button:hover span span, 
+#magebridge-content button.form-button:hover span, 
+#magebridge-content .category-products button.button:hover span span {
+	background: url(../../images/variations/gradientblue/readmore.png) 100% -27px no-repeat;
+	}

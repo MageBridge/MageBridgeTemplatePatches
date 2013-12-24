@@ -1,0 +1,8 @@
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover span,
+#magebridge-content button.button:hover span,
+.magebridge-module button.button:hover span span,
+#magebridge-content button.button:hover span span {
+    color: #3f9f97;
+}

@@ -1,0 +1,33 @@
+#magebridge-content input.input-text,
+.magebridge-module input.input-text,
+#magebridge-content input[type="text"],
+.magebridge-module input[type="text"],
+#magebridge-content input[type="password"],
+.magebridge-module input[type="password"],
+#magebridge-content select,
+.magebridge-module select,
+#magebridge-content textarea,
+.magebridge-module textarea {
+	color: #D8E7A4;
+
+	background-color: #34461F;
+	border: 1px solid transparent;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	}
+	
+	
+.magebridge-module button.button, 
+#magebridge-content button.button {
+	color: #D8E7A4;
+
+	background-color: #34461F;
+	border: 1px solid transparent;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	}
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	border-color: #19240c;
+	background-color: #263515;
+	}
+	

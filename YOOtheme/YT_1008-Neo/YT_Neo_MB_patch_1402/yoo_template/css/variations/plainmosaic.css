@@ -1,0 +1,39 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* layout */
+ 
+body.yoopage { background: #242F39 url(../../images/variations/plainmosaic/page_bg.png) 0 0 repeat-x; }
+#page-body { background-image: url(../../images/variations/plainmosaic/page_bg_img.jpg); }
+
+/* typography */
+
+h2,
+h4,
+h6 { color: #5975A4; }
+
+a:link,
+a:visited { color: #4270C4; }
+a:hover { color: #323232; }
+
+ul.links li { background-image: url(../../images/variations/plainmosaic/list_links.png); }
+#page ul.links li a:hover { color: #4270C4; }
+
+/* modules */ 
+
+div.mod-glow-templatecolor div.box-1 { background-color: #475978; }
+div.mod-glow-templatecolor em.box { border: 1px dotted #202835; background: #3D4D67; }
+
+div.mod-glass div.box-1 { background-image: url(../../images/variations/plainmosaic/module_glass_bg.png); }
+div.mod-glass div.box-4 { 
+	background-image: url(../../images/variations/plainmosaic/module_glass_line_v.png);
+	color: #dcdcdc;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+}
+div.mod-glass div.box-2,
+div.mod-glass div.box-3 { background-image: url(../../images/variations/plainmosaic/module_glass_line_h.png); }
+
+div.mod-glass div.box-4 a { color: #dcdcdc; }
+div.mod-glass div.box-4 a:hover { color: #ffffff; text-shadow: 0 1px 0 rgba(0,0,0,0.7), 0 1px 1px rgba(0,0,0,0.7); }
+
+/* custom */
+#page #logo a.logo-icon { background-image: url(../../../../images/yootheme/logo_plainmosaic.png); }

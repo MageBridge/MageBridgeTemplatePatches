@@ -1,0 +1,102 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+/*#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a,
+#magebridge-content .step-title h2 {color: #ffffff;}*/
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+.products-grid li.item {padding:12px 10px 100px;}
+
+/* Magebridge: Background image or color (module background) (Module Box Variations -> .box3 .rt-block) */
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,  
+#magebridge-content .data-table .even {background: white;}
+
+#magebridge-content .fieldset {
+	-moz-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #DDDDDD;
+    margin: 10px 0;
+    padding: 10px;
+    }
+#magebridge-content .fieldset .legend {
+    font-size: 170%;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 120%;
+    
+    border:none;    
+    margin: -20px 0;
+    padding: 0;
+    }
+
+/* Magebridge: Background image or color (module header) (Module Box Variations -> .box3 .rt-block) */
+/*#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .product-options-bottom {background: rgba(0, 0, 0, 0.25) !important;}*/
+
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2,
+#magebridge-content .cart {color: #444;}
+#magebridge-content .fieldset .legend {color:#444;border-color: #444;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	display: inline-block;height: 34px;margin: 0 0 0 5px;background-color: transparent;border: 0;padding: 0;overflow: visible;
+	background-image: url("../../images/body/readon-r.png");
+	background-position: 100% 0;
+    background-repeat: no-repeat;
+	}
+#magebridge-content button.button span,
+.magebridge-module button.button span {
+	display: inline-block;margin: 0 0 0 -5px;padding: 0 10px 1px 10px;border: 0;font-size: 11px;cursor: pointer;line-height: 30px;height: 34px;overflow: visible;font-weight: bold;position: relative;white-space: nowrap;text-transform: uppercase;background-color: transparent;
+	background-image: url("../../images/body/readon-l.png");
+	background-position: 0 0;
+    background-repeat: no-repeat;
+	}
+#magebridge-content button.button span span,
+.magebridge-module button.button span span {
+	display: inline;background: none;margin-left: 0;padding: 0;float: none;
+	}
+#magebridge-content button.button:hover,
+.magebridge-module button.button:hover {
+	padding-right: 25px;
+	background-position: 100% -37px;
+	}
+#magebridge-content button.button:hover span,
+.magebridge-module button.button:hover span {
+	background-position: 0 -37px;
+	}
+
+#magebridge-content .cart {background-color:transparent;background-image:none;border:none;}
+#magebridge-content .data-table {border:none;}
+#magebridge-content .product-img-box .more-views {margin-top: 10px;}
+
+
+/* ======================================================================================= */

@@ -1,0 +1,9 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content button.button,
+.magebridge-module button.button  {
+	background: url(../../images/style6/readon.png) 0 0 no-repeat;
+	}
+
+/* ======================================================================================= */

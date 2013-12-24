@@ -1,0 +1,118 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a,
+#magebridge-content .step-title h2 {color: #ffffff;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+
+/* Magebridge: Background image or color (module background) */
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,  
+#magebridge-content .data-table .even { background: #F8F9FA; }
+
+/* Magebridge: Background image or color (module header background = div.mod-box div.box-3 ) (color = a:link) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {background:#333435;color: #FF3399;}
+.color-blue #magebridge-content .account-login .buttons-set,
+.color-blue #magebridge-content .data-table thead,
+.color-blue #magebridge-content .opc .step-title,
+.color-blue #magebridge-content .cart-table thead,
+.color-blue #magebridge-content .cart-table tfoot {color: #18B0E2;}
+.color-green #magebridge-content .account-login .buttons-set,
+.color-green #magebridge-content .data-table thead,
+.color-green #magebridge-content .opc .step-title,
+.color-green #magebridge-content .cart-table thead,
+.color-green #magebridge-content .cart-table tfoot {color: #A9BE14;}
+.color-orange #magebridge-content .account-login .buttons-set,
+.color-orange #magebridge-content .data-table thead,
+.color-orange #magebridge-content .opc .step-title,
+.color-orange #magebridge-content .cart-table thead,
+.color-orange #magebridge-content .cart-table tfoot {color: #FF9900;}
+.color-lilac #magebridge-content .account-login .buttons-set,
+.color-lilac #magebridge-content .data-table thead,
+.color-lilac #magebridge-content .opc .step-title,
+.color-lilac #magebridge-content .cart-table thead,
+.color-lilac #magebridge-content .cart-table tfoot {color: #9468CE;}
+
+/* MageBridge: border-color */
+#magebridge-content .data-table,
+#magebridge-content .data-table thead th,
+#magebridge-content .data-table tbody td,
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals {border-color:#E1E1E2}
+
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #333435;}
+#magebridge-content .product-options-bottom,
+button.button span, 
+.block-subscribe .actions button.button span, 
+#addTagForm button.button span, 
+.add-to-cart button.button, 
+.add-to-cart button.button span, 
+.cart button.button span { background: #333435; border:none;  }
+#magebridge-content .fieldset .legend {border-color: #333435;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+#magebridge-content .add-to-cart button.button, 
+#magebridge-content .add-to-cart button.button span, 
+#magebridge-content .category-products button.button span {
+	background: none;
+	padding: 0;
+	height: 25px;
+	text-align: left;
+	}
+#magebridge-content .add-to-cart button.button span span, 
+#magebridge-content button.form-button span, 
+#magebridge-content .category-products button.button span span {
+	height: 25px;
+	width: 120px;
+	padding: 0;
+	border: none;
+	background: url(../../images/readmore.png) 0 0 no-repeat;
+	line-height: 25px;
+	text-indent: 8px;
+	font-size: 11px;
+	color: #646566;
+	text-transform: uppercase;
+	}
+#magebridge-content .add-to-cart button.button:hover span span, 
+#magebridge-content button.form-button:hover span, 
+#magebridge-content .category-products button.button:hover span span {
+	background-position: 0 -40px;
+	color: #FFFFFF;
+	}
+#magebridge-content .add-to-cart button.button:active span span, 
+#magebridge-content button.form-button:active span, 
+#magebridge-content .category-products button.button:active span span {
+	background-position: 0 -80px;
+	line-height: 25px;
+	color: #333435;
+	}
+/* ======================================================================================= */

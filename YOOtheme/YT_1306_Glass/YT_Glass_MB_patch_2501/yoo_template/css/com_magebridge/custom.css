@@ -1,0 +1,271 @@
+/* Start of Magebridge added styling ===================================================== */
+
+.menu-dropdown li.level1.parent:hover:before, .menu-dropdown li.remain.parent:before {top:40px!important;}
+.menu-dropdown .dropdown {top:50px!important;}
+
+/* Magebridge: Page styling */
+img {vertical-align: baseline;}
+#magebridge-content img {vertical-align: top;}
+#magebridge-content form div {margin: 0;}
+#magebridge-content h2,
+#magebridge-content .cart .crosssell h2 {margin-top:0;font-weight:normal;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+/*#magebridge-content .opc .active .step-title .number {background: #ffffff;}*/
+#magebridge-content .products-grid li.item {padding:12px 10px 100px;}
+#magebridge-content .add-to-links,
+.products-grid .product-name,
+.products-list .product-name {font-size:inherit;}
+.cart .crosssell h2 {font-size:1em;}
+
+/* Magebridge: Background image or color (background and border from odd/even tablerow) */
+#magebridge-content .toolbar .pager,
+#magebridge-content .toolbar .sorter,
+#magebridge-content .cart .crosssell,
+#magebridge-content .cart .discount,
+#magebridge-content .cart .shipping,
+#magebridge-content .cart .totals,
+#magebridge-content .data-table ,
+#magebridge-content .data-table thead,
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot,
+#magebridge-content .account-login .content,
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .box-account, 
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .product-options,
+/*#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .step,*/
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options-bottom,
+#magebridge-content .product-view .box-up-sell .products-grid td {border:none;}
+#magebridge-content .product-options {
+	background: #FFF;
+	}
+#magebridge-content .product-options-bottom {
+	background: #eee;
+	background: rgba(38,151,209,0.1);
+	}
+
+#magebridge-content .products-grid {border-color: rgba(255, 255, 255, 0.2);}
+
+/* checkout */
+#magebridge-content .opc .step,
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .allow .step-title,
+#magebridge-content .opc .active .step-title {
+	background:none;
+	border-color: white;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+#magebridge-content .opc .step-title,
+#magebridge-content .opc .allow .step-title {
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+}
+
+.opc .step-title .number,
+.opc .allow .step-title .number,
+.opc .active .step-title .number {
+	background:none;
+	border:none;
+}
+
+#magebridge-content .opc .active .step-title h2 {
+	color:inherit;
+}
+
+#magebridge-content #opc-login h4 {
+	color:inherit;
+	text-shadow: none;
+}
+
+  /* YOOtheme -> warp >> tools.css >> table.zebra = #magebridge-content .data-table */
+#magebridge-content .data-table { width: 100%; }
+
+#magebridge-content .data-table th {
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#magebridge-content .data-table th,
+#magebridge-content .data-table td { padding: 5px; }
+
+#magebridge-content .data-table tbody,
+#magebridge-content .data-table tfoot {  }
+
+#magebridge-content .data-table .bold { font-weight: bold; }
+#magebridge-content .data-table .center { text-align: center; }
+
+#magebridge-content .data-table td * { vertical-align: middle; }
+
+#magebridge-content .data-table tfoot { font-style: italic; }
+
+#magebridge-content .data-table caption {
+	font-size: 11px;
+	text-align: left;
+	font-style: italic;
+}  
+
+  /* YOOtheme -> tools.css >> table.zebra = #magebridge-content .data-table */
+/* Zebra Table */
+#magebridge-content tbody tr.odd {
+	background: #fff;
+	background: rgba(255,255,255,0.4);
+}
+
+#magebridge-content tbody tr:nth-of-type(odd) {
+	background: #fff;
+	background: rgba(255,255,255,0.4);
+}
+
+  #magebridge-content .data-table th,
+  #magebridge-content .data-table td {border:none;}
+  
+  
+ 
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .page-title,
+#magebridge-content .product-collateral h2,
+#magebridge-content .account-login .content h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {border-bottom: 1px solid rgba(255, 255, 255, 0.2);font-weight:normal;}
+#magebridge-content .product-view .product-img-box .more-views li {margin: 0 0 8px 9px;}
+
+
+#magebridge-content .pager {border-color: rgba(255, 255, 255, 0.2);}
+
+#magebridge-content .page-title h1,
+#magebridge-content .page-title h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+/* MageBridge: add to cart (same as readmore from template tools.css) */ 
+
+/* tools.css */
+.magebridge-module button.button,
+#magebridge-content button.button {	
+	display: inline-block;
+	border:none;
+	
+	/* tools */
+	color: #fff;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 6px 12px;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+	font-size: 16px;
+	
+	/* blue.css */
+	background: #2697d1;
+}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {	
+	/* tools */
+	color: #fff;
+
+	/* blue.css */	
+	background: #238bc0;
+	background-image: -webkit-radial-gradient(center, #2697d1, #238bc0);
+	background-image: radial-gradient(ellipse at center, #2697d1, #238bc0);
+}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {	
+	/* tools */
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(255,255,255,0.4);
+	color: #fff;
+	
+	/* blue.css */
+	background: #1a6890;
+	background-image: -webkit-radial-gradient(center, #2697d1, #1e78a6);
+	background-image: radial-gradient(ellipse at center, #2697d1, #1e78a6);
+}
+
+
+.magebridge-module .add-to-cart button.button, 
+#magebridge-content .add-to-cart button.button,
+#addTagForm button.button {margin: 0 0 0 15px;}
+
+/* MageBridge Form 
+----------------------------------------------------------------------------------------------------*/
+/* from warp/tools.css */
+.magebridge-module fieldset,
+#magebridge-content fieldset {	
+	margin-bottom: 30px;
+	padding: 0 10px 10px 10px;
+}
+.magebridge-module legend,
+#magebridge-content legend { padding: 0 10px; }
+.magebridge-module fieldset > div,
+#magebridge-content fieldset > div { margin: 15px 0; }
+
+.magebridge-module button,
+#magebridge-content button,,
+.magebridge-module input[type='button'],
+#magebridge-content input[type='button'],
+.magebridge-module input[type='reset'],
+#magebridge-content input[type='reset'] { vertical-align: middle; }
+
+/* from tools.css */
+.magebridge-module .fieldset,
+#magebridge-content .fieldset {
+	background: transparent;
+	
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+#magebridge-content .fieldset .legend,
+.magebridge-module legend,
+#magebridge-content legend {
+	/* blue.css */
+	background: #2697d1;
+	
+	border-radius: 3px;
+	color: #fff;
+}
+
+#magebridge-content input, 
+#magebridge-content textarea, 
+#magebridge-content select,
+.magebridge-module input, 
+.magebridge-module textarea, 
+.magebridge-module select {
+	padding: 4px 6px;
+	border: 1px solid #c1cbd3;
+	border-radius: 3px;
+	color: #8699a9;
+	-webkit-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+
+#magebridge-content input:focus, 
+#magebridge-content textarea:focus, 
+#magebridge-content select:focus,
+.magebridge-module input:focus, 
+.magebridge-module textarea:focus, 
+.magebridge-module select:focus {
+	outline: 0;
+	background: #fff;
+}
+
+.magebridge-module .fieldset ul,
+#magebridge-content .fieldset ul {
+	margin-top:10px;
+}
+
+
+.price-box .price,
+.regular-price {color:inherit;}
+/* ======================================================================================= */

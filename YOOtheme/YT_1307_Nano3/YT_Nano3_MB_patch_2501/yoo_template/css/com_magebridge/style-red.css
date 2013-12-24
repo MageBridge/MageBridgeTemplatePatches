@@ -1,0 +1,22 @@
+.magebridge-module button.button,
+#magebridge-content button.button {
+	background: #faf0f0;
+	color: #552227;
+	border: 1px solid #b94852;
+	border-bottom-color: #b03b46;
+	background-origin: border-box;
+	background-image: -webkit-linear-gradient(top, #ffffff, #f4e0e0);
+	background-image: linear-gradient(to bottom, #ffffff, #f4e0e0);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover,
+.magebridge-module button.button:focus,
+#magebridge-content button.button:focus {
+	/* theme.css */
+	background-color: #ffffff;
+	color: #333333;
+	outline: none;
+	background-image: none;
+}

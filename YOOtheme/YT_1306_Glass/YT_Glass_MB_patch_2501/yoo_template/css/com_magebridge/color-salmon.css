@@ -1,0 +1,21 @@
+.magebridge-module button.button,
+#magebridge-content button.button,
+#magebridge-content .fieldset .legend,
+.magebridge-module legend,
+#magebridge-content legend {
+	background: #D45F4A;
+	}
+
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background: #CE4D35;
+	background-image: -webkit-radial-gradient(center, #D45F4A, #CE4D35);
+	background-image: radial-gradient(ellipse at center, #D45F4A, #CE4D35);
+	}
+
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {
+	background: #C1452F;
+	background-image: -webkit-radial-gradient(center, #D45F4A, #C1452F);
+	background-image: radial-gradient(ellipse at center, #D45F4A, #C1452F);
+}

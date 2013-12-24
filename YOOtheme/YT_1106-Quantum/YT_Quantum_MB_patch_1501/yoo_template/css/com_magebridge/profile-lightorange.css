@@ -1,0 +1,211 @@
+/* move to color-blue.css */
+	
+/* Magebridge: H1 color */
+#magebridge-content .page-title h1 {    
+	color: #ff9b39;
+	text-shadow:
+		0 -1px 0 rgba(0,0,0,0.4),
+		0 0 4px rgba(255,155,57,0.4);
+	}
+
+/* Magebridge: H3 color */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot,
+#magebridge-content .step-title h2,
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {
+	color: #ffc48b;
+	text-shadow: 0 0 4px rgba(255,196,139,0.4);
+	}
+	
+	
+/* Magebridge: Background image or color (background and broder from odd/even tablerow) */
+#magebridge-content .toolbar { border-top: 1px solid #dfdfdf; }
+#magebridge-content .products-grid.first { border-top: 1px solid #dfdfdf; }
+
+#magebridge-content .toolbar,
+#magebridge-content .cart-table thead th {
+	border-top: 1px solid #dfdfdf;
+	background: rgba(245,245,245,0.4);
+	background: -moz-linear-gradient(
+					50% 0%,
+					rgba(255,255,255,0.4) 0%,
+					rgba(239,239,239,0.4) 100%
+				);
+	background: -webkit-gradient( 
+					linear,
+					50% 0%,
+					50% 100%,
+					color-stop(0%, rgba(255,255,255,0.4)),
+					color-stop(100%, rgba(239,239,239,0.4))
+				);
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+
+#magebridge-content .products-grid,
+#magebridge-content .cart-table tbody tr {
+	border-bottom:none;
+	
+	background: rgba(0,0,0,0.02);
+	-moz-box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	}
+
+#magebridge-content .product-options-bottom,
+#magebridge-content .cart-table tfoot tr {
+	border-bottom:none;
+	
+	border-top: 1px solid #dfdfdf;
+	background: rgba(0,0,0,0.03);
+	-moz-box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+#magebridge-content .products-grid.odd,
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd {background: rgba(255,255,255,0.85);}
+
+/* MageBridge Form */
+#magebridge-content .fieldset {
+	border: 1px solid #dfdfdf
+	}
+#magebridge-content .fieldset .legend  {
+	color: #999;
+}
+
+#magebridge-content input.input-text,
+#magebridge-content input[type="text"],
+#magebridge-module input[type="text"],
+#magebridge-content input[type="password"],
+#magebridge-module input[type="password"],
+#magebridge-content select,
+#magebridge-module select,
+#magebridge-content textarea,
+#magebridge-module textarea {
+	border: 1px solid #d3d3d3;
+	background: #fff;
+	-moz-box-shadow:
+		0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 1px 1px 1px rgba(0,0,0,0.06),
+		inset 0 0 10px rgba(0,0,0,0.02);
+	-webkit-box-shadow:
+		0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 1px 1px 1px rgba(0,0,0,0.06),
+		inset 0 0 10px rgba(0,0,0,0.02);
+	box-shadow:
+		0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 1px 1px 1px rgba(0,0,0,0.06),
+		inset 0 0 10px rgba(0,0,0,0.02);
+	color: #999;
+	text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+}
+
+#magebridge-content input.input-text:focus,
+#magebridge-content input[type="text"]:focus,
+#magebridge-module input[type="text"]:focus,
+#magebridge-content input[type="password"]:focus,
+#magebridge-module input[type="password"]:focus,
+#magebridge-content select:focus,
+#magebridge-content textarea:focus,
+#magebridge-module textarea:focus {
+	border-color: #cacaca;
+	background-color: #fefefe;
+	-moz-box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.07),
+		inset 0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 0 10px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.07),
+		inset 0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 0 10px rgba(255,255,255,0.7);
+	box-shadow:
+		0 1px 3px 1px rgba(0,0,0,0.07),
+		inset 0 0 0 1px rgba(255,255,255,1.0),
+		inset 0 0 10px rgba(255,255,255,0.7);
+	color: #444;
+	text-shadow: none;
+}
+
+#magebridge-content .buttons-set {border-top:0;}
+
+/* MageBridge: YOOtheme specific border -> h2 title */
+#magebridge-content .product-collateral h2,
+#magebridge-content .product-view .product-img-box .more-views h2 {background: url(../../styles/light/images/module_line_stacked.png) 0 100% repeat-x;border-bottom:none;}
+
+#magebridge-content .page-title {
+	border:none;
+	background: url("../../styles/light/images/module_line_stacked.png") repeat-x scroll 0 100% transparent;
+}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+.magebridge-module button.button,
+#magebridge-content button.button {
+	background: #4C4B4B url(../../styles/light/images/button_more.png) 0 0 repeat-x;
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,1.0),
+		0 1px 0 rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,1.0),
+		0 1px 0 rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	box-shadow:
+		inset 0 1px 0 rgba(255,255,255,1.0),
+		0 1px 0 rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+	}
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	background-color: #363636;
+	-moz-box-shadow:
+		0 1px 0 rgba(0,0,0,0.1),
+		0 0 0 3px rgba(0,0,0,0.09);
+	-webkit-box-shadow:
+		0 1px 0 rgba(0,0,0,0.1),
+		0 0 0 3px rgba(0,0,0,0.09);
+	box-shadow:
+		0 1px 0 rgba(0,0,0,0.1),
+		0 0 0 3px rgba(0,0,0,0.09);
+	color: #fff;
+	text-shadow: 0 0 3px rgba(0,0,0,0.5);
+	}
+.magebridge-module button.button:active,
+#magebridge-content button.button:active {
+	background-color: #757575;
+	-moz-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.08),
+		0 1px 0 rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	-webkit-box-shadow:
+		inset 0 1px 0 rgba(255,255,255,0.08),
+		0 1px 0 rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	box-shadow:
+		inset 0 1px 0 rgba(0,0,0,0.7),
+		inset 0 2px 1px rgba(0,0,0,0.3),
+		inset 0 0 10px rgba(0,0,0,0.2),
+		0 0 0 3px rgba(0,0,0,0.09);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.6);
+	}
+
+/* ======================================================================================= */

@@ -1,0 +1,11 @@
+	/* main-dark.css */
+	#magebridge-content table {border: 1px solid #383838;}
+	#magebridge-content table th + th, 
+	#magebridge-content table td + td, 
+	#magebridge-content table th + td {border-left: 1px solid #383838;}
+	#magebridge-content table th, 
+	#magebridge-content table td {background: #252525;border-bottom: 1px solid #383838;}
+	#magebridge-content table tbody tr:nth-child(odd) td, 
+	#magebridge-content table tbody tr:nth-child(odd) th {background: #333;}
+	#magebridge-content table tbody tr:hover td, 
+	#magebridge-content table tbody tr:hover th {background: #363636;}

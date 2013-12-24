@@ -1,0 +1,32 @@
+Changelog
+------------
+
+1.4.0.4
+^ Changed default-ie.css
+
+1.4.0.3 
+! Changed CSS structure
+^ Changed rt_head_includes.php
+- css/magebridge*
++ css/com_magebridge/*
+- images/mb14
++ images/com_magebridge/*
+
+1.4.0.2
++ added magebridge-styles-ie.css
+
+1.4.0.1
+! Changed all to confirm the Magento 1.4.x code
+
+1.0.0
++ Initial Release
+
+
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note

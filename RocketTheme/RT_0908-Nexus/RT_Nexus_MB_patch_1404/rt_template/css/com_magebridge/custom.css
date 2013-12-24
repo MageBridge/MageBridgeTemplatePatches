@@ -1,0 +1,55 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a,
+#magebridge-content .step-title h2 {color: #ffffff;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+.products-grid li.item {padding:12px 10px 100px;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+button.button {font-size:12px;padding:0 10px 0 0;}
+button.button span, button.button span span {display:block;font-size:1em;font-weight:bold;height:25px;line-height:25px;text-indent:0px;}
+button.button span {margin-left:9px;padding-left:2px;text-align:center;}
+button.button span span {margin-right:-9px;padding-right:10px;}
+
+button.button:hover {background-position: 0 -36px;}
+button.button:hover span {background-position: 100% -36px;}
+button.button:hover span span {background-position: 100% -36px;}
+
+.magebridge-content .cart {background-color:transparent;background-image:none;border:none;}
+.data-table {border:none;}
+
+/* Magebridge: Background image or color (module background) (Module Box Variations -> .box3 .rt-block) */
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,  
+#magebridge-content .data-table .even { background:#EEE;}
+
+/* Magebridge: Background image or color (module header) (Module Box Variations -> .box3 .rt-block) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {background:#DDD;}
+
+/* ======================================================================================= */

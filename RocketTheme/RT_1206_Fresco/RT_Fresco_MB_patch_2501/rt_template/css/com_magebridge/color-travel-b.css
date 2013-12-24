@@ -1,0 +1,12 @@
+.magebridge-module button.button span, #magebridge-content button.button span {
+background-color: #FE6579;
+color: white!important;
+box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(0, 0, 0, 0.4);
+text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.3);
+background-image: url('../../images/travel-a/readon.png');
+}
+.magebridge-module button.button:hover span, #magebridge-content button.button:hover span {
+cursor: pointer;
+background-position: 0 -94px;
+}

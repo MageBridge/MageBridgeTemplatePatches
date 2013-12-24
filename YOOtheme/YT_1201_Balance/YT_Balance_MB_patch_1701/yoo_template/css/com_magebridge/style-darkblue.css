@@ -1,0 +1,8 @@
+
+	
+.magebridge-module button.button:hover,
+#magebridge-content button.button:hover {
+	border-color: #3E6C88;
+	background-color: #6da0be;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+}
