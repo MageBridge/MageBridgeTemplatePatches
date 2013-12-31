@@ -1,0 +1,53 @@
+/* Start of Magebridge added styling ===================================================== */
+
+.tags-list {
+    background: none repeat scroll 0 0 #F8F7F5;
+    border: 0px solid #C1C4BC !important;
+    display: block;
+    font-size: 13px;
+    padding: 10px;
+}
+.tags-list li a {
+    color: #42B4B7 !important;
+ }
+ button.button>span{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 2px solid #DED9D3;
+    border-radius: 4px;
+    color: #605D5A;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: normal;
+    min-height:18px;
+    padding:2px;
+	margin:0px;
+    
+ } 
+ 
+button.button>span:hover,button.button>span:focus {
+	background-color: rgba(204, 196, 190, 0.15) !important;
+    border-color: rgba(204, 196, 190, 0.85) !important;
+    color: #605D5A !important;
+    outline: medium none !important;
+    transition: background-color 0.1s ease-in-out 0s, border-color 0.2s ease-in 0s;
+	}
+ button.button span>span{
+    background: none !important;
+    border: 0px solid #DE5400 !important;
+    color: #605D5A !important;
+    display: block;
+    height: 0px;
+    line-height: 0px;
+    padding: 10px 0px;
+    text-align: center !important;
+    white-space: none !important;
+}
+.price-box .price {
+    color: #42B4B7;
+    font-weight: bold;
+}
+.product-view .box-tags .form-add input.input-text {
+    width: 280px;
+}
+
+/* ======================================================================================= */
