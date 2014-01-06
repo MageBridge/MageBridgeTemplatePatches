@@ -49,5 +49,11 @@ button.button>span:hover,button.button>span:focus {
 .product-view .box-tags .form-add input.input-text {
     width: 280px;
 }
-
+tr.first td:first-child {
+   width:139px;
+}
+.control input.radio{
+float: left;
+margin: 0;
+}
 /* ======================================================================================= */
