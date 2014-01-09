@@ -1,0 +1,29 @@
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2,
+#magebridge-content .cart {color: #666;}
+#magebridge-content .fieldset .legend {border-color: #666;}
+
+/* Magebridge: Background image or color (module background) (Module Box Variations -> .box3 .rt-block) */
+#magebridge-content .crosssell,
+#magebridge-content .discount,
+#magebridge-content .shipping,
+#magebridge-content .totals,
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,  
+#magebridge-content .data-table .even { background:#D0D0D0;}
+
+/* Magebridge: Background image or color (module header) (Module Box Variations -> .box3 .rt-block) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {background:#E57133;}
+

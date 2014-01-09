@@ -1,0 +1,11 @@
+.login-box .col-1, .login-box .col-2 {border:none;border-bottom:1px solid #363636;background:#515151}
+.login-box .button-set {background-image:none;}
+.data-table thead tr th{background:transparent url("../../images/dark3.png) repeat-x scroll 0 -136px;border-bottom:1px solid #C3D9E1;color:#AAAAAA}
+.data-table .odd{background:#515151}
+.data-table .even{background:#393939!important}
+.one-page-checkout .active .step-count{border:1px solid #0084DA;background:#0084DA;color:#FFF}
+.one-page-checkout .active .head { background: transparent url("../../images/dark3.png) repeat-x scroll 0 -136px; }
+.toolbar .pager {border-bottom:1px solid #363636;padding:3px 8px;}
+.sorter {background:url("../../images/dark.png) repeat-x scroll 0 -136px #363636;border-top:1px solid #363636;font-size:11px;padding:3px 8px;}
+.pager {background:url("../../images/dark.png) repeat-x scroll 0 -136px #363636;border-top:1px solid #363636;font-size:11px;padding:4px 8px;text-align:center;}
+.toolbar .sorter {border-bottom:1px solid #363636;}

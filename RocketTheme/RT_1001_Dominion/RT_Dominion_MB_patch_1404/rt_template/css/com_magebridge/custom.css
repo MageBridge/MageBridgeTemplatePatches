@@ -1,0 +1,52 @@
+/* Start of Magebridge added styling ===================================================== */
+.magebridge-content .cart {background-color:transparent;background-image:none;border:none;color:#000000;}
+.data-table {border:none;}
+.products-grid li.item {padding:12px 10px 100px;}
+
+
+/* Magebridge: Page styling */
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a,
+#magebridge-content .step-title h2 {color: #ffffff;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+
+/* Magebridge: Background image or color (module background) */
+#magebridge-content .box-account,
+#magebridge-content .fieldset,
+#magebridge-content .fieldset .legend,
+#magebridge-content .opc .step, 
+#magebridge-content .account-login .content,
+#magebridge-content .product-view .box-up-sell .products-grid,
+#magebridge-content .product-options,
+#magebridge-content .listing-type-grid ol.odd,
+#magebridge-content .data-table .odd,  
+#magebridge-content .data-table .even { background: transparent; }
+
+/* Magebridge: Background image or color (module header) */
+#magebridge-content .account-login .buttons-set,
+#magebridge-content .data-table thead,
+#magebridge-content .opc .step-title,
+#magebridge-content .cart-table thead,
+#magebridge-content .cart-table tfoot {color: #ffffff;}
+
+/* MageBridge: replace by h1 colors*/
+#magebridge-content .opc .step-title .number,
+#magebridge-content h2 {color: #3489c8;}
+#magebridge-content .product-options-bottom { background: #3489c8; border:none;  }
+#magebridge-content .fieldset .legend {border-color: #3489c8;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+button.button {display: inline-block;padding-left: 10px;height: 34px;}
+button.button span {display: block;padding: 0 15px 3px 5px;border: 0;font-size: 13px;cursor: pointer;height: 31px;line-height: 32px;float: left;font-weight: bold;overflow:visible;}
+button.button span span {display: inline;background: none;margin-left: 0;padding: 0;float: none;}
+button.button:hover {background-position: 0 -34px;}
+button.button:hover span {background-position: 100% -34px;}

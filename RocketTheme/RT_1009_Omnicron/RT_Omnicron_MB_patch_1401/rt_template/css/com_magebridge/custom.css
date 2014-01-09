@@ -1,0 +1,41 @@
+/* Start of Magebridge added styling ===================================================== */
+
+/* Magebridge: Page styling */
+#magebridge-content form div {margin: 0;}
+#magebridge-content h1 { }
+#magebridge-content h2 {margin-top:0;}
+#magebridge-content ul, 
+#magebridge-content ol, 
+#magebridge-content dl {margin: 0;padding-left:0px;}
+#magebridge-content div.discount {margin-bottom: 10px;}
+#magebridge-content div.discount div.buttons-set {margin-top: 10px;}
+#magebridge-content .product-options-bottom .price,
+#magebridge-content .product-options-bottom .add-to-cart label,
+#magebridge-content .account-login a,
+#magebridge-content .step-title h2 {color: #ffffff;}
+#magebridge-content .opc .active .step-title .number {background: #ffffff;}
+.products-grid li.item {padding:12px 10px 100px;}
+
+/* MageBridge: add to cart (same as readmore from template) */ 
+button.button  {border:none;display:inline-block;height:30px;line-height:30px;overflow:visible;padding:0 0 0 5px !important;}
+button.button span {border:none;display:block;font-size:13px;height:30px;line-height:30px !important;margin:0 !important;overflow:visible;padding:0 25px 0 0;white-space:nowrap;}
+button.button span span {background:none;}
+button.button:hover {background-position: 0 -36px;}
+button.button:hover span {background-position: 100% -36px;}
+
+.magebridge-content .cart {background-color:transparent;background-image:none;border:none;}
+.data-table {border:none;}
+
+/*
+#magebridge-content .add-to-cart button.button, 
+#magebridge-content .add-to-cart button.button span, 
+#magebridge-content .category-products button.button span {	}
+#magebridge-content .add-to-cart button.button span span, 
+#magebridge-content button.form-button span, 
+#magebridge-content .category-products button.button span span { }
+#magebridge-content .add-to-cart button.button:hover span span, 
+#magebridge-content button.form-button:hover span, 
+#magebridge-content .category-products button.button:hover span span { }
+*/
+
+/* ======================================================================================= */

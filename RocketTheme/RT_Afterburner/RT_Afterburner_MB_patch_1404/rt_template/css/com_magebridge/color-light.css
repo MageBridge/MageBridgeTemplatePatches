@@ -1,0 +1,5 @@
+.data-table thead tr th{background:transparent url("../../images/light.png) repeat-x scroll 0 -136px;border-bottom:1px solid #c3d9e1;color:#50646D}
+.data-table .odd{background:#EEE}
+.data-table .even{background:#F7F7F7!important}
+.one-page-checkout .active .step-count{border:1px solid #d03100;background:#d03100;color:#FFF}
+.one-page-checkout .active .head { background: transparent url("../../images/light.png) repeat-x scroll 0 -136px; }
