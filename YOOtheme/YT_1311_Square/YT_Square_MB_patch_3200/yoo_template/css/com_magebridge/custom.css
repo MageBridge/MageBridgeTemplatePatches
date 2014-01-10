@@ -8,7 +8,7 @@
     padding: 10px;
 }
 .tags-list li a {
-    color: #42B4B7 !important;
+    /* color: #42B4B7 !important; */
  }
  button.button>span{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
@@ -43,8 +43,14 @@ button.button>span:hover,button.button>span:focus {
     white-space: none !important;
 }
 .price-box .price {
-    color: #42B4B7;
-    font-weight: bold;
+    /* color: #42B4B7;
+    font-weight: bold; */
+}
+#magebridge-content .product-options {
+background:none !important;
+}
+.product-options-bottom{
+background:none !important;
 }
 .product-view .box-tags .form-add input.input-text {
     width: 280px;
