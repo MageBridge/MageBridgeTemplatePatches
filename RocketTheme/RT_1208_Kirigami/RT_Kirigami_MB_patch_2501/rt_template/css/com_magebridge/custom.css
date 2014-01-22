@@ -365,13 +365,17 @@ img {vertical-align: baseline;}
 .magebridge-module button.button:active span,
 #magebridge-content button.button:active span {}
 
-/*.option-com-magebridge .level2 .item {
+.option-com-magebridge .level2 .item {
 	height:33px;
 	line-height:33px;
 }
 
+.option-com-magebridge .menutop ul {
+    padding-top:30px;
+}
 
 .option-com-magebridge .menutop ul li {
+    padding:10px;
     background-position: 6px 17px;
     background-repeat: no-repeat;
     display: block;
@@ -385,7 +389,7 @@ img {vertical-align: baseline;}
 }
 .option-com-magebridge .menutop ul li > .item {
     display: block;
-    font-size: 1em;
+    font-size: 100%;
     font-weight: normal;
     height: auto;
     letter-spacing: normal;
@@ -398,5 +402,4 @@ img {vertical-align: baseline;}
     height: 15px;
     line-height: 20px;
 }
-*/
 /* ======================================================================================= */
