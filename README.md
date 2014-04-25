@@ -5,25 +5,31 @@ MageBridge.
 ## Patch status
 
 ### Patches to be released on Yireo site:
-RT Graffito
-YOO Pace
-YOO Showroom
-YOO Venture
 
-### Patches to be created on templates.magebridge.com
-YOO Lava
-YOO Capture
-YOO Moreno
-YOO Moustache
-YOO Vida
-RT Alerion
-RT Hexiris
-RT Praxis
-RT Radiance
-RT Stratos
-RT Paradigm
-RT Spectral
-RT Hadron
-RT Afterburner 2
-RT Acacia
-RT Corvus
+### Patch to be created on templates.magebridge.com
+* YOO Capture
+* YOO Moreno
+* YOO Moustache
+* YOO Vida
+
+### Pending setup demo-site on templates.magebridge.com
+* YOO Digit
+* JoomlaBamboo Base3
+* JoomlaBamboo Hub2
+* JoomlaBamboo New Lifestyle
+
+### To be discussed
+* RT Alerion
+* RT Hexiris
+* RT Praxis
+* RT Radiance
+* RT Paradigm
+* RT Spectral
+* RT Hadron
+* RT Afterburner 2
+* RT Acacia
+* RT Corvus
+* RT Lexicon
+* RT Epsilon
+* RT Anacron
+
