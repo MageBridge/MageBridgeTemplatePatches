@@ -19,17 +19,4 @@ MageBridge.
 * JoomlaBamboo New Lifestyle
 
 ### To be discussed
-* RT Alerion
-* RT Hexiris
-* RT Praxis
-* RT Radiance
-* RT Paradigm
-* RT Spectral
-* RT Hadron
-* RT Afterburner 2
-* RT Acacia
-* RT Corvus
-* RT Lexicon
-* RT Epsilon
-* RT Anacron
-
+* ...
